@@ -1,0 +1,65 @@
+*,html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+/*Menu*/
+header
+{
+    height: 112px;
+    line-height: 112px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.secondary
+{
+    background-color: #162252;
+    box-shadow: 0px 0px 17px 0px;
+    transition: all 0.5s ease-in;
+}
+
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+header nav
+{
+    float: right;
+    
+}
+
+.logo img
+{
+    
+    margin-top: -45px;
+    
+    
+}
+
+header nav ul li a
+{
+    padding-right: 30px;
+    font-weight: bold;
+    color: black;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover,header nav ul li a:focus
+{
+    text-decoration: none;
+    color: red;
+}
+/*Menu*/
