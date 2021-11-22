@@ -14,10 +14,14 @@ INTRODUCTION
 
 !!!    JOS JOKU LUKEE TÄN NII KIRJOTTAKAA TÄNNE MILLE LUOKALLE TEETTE PELIN.   !!!
 
-Aapo 
-Joona 1. Luokka
-Aleksi 6. Luokka
-Sami 
+Aapo,
+
+Joona 1. Luokka,
+
+Aleksi 6. Luokka,
+
+Sami,
+
 Toni 2. Luokka
 
 REQUIREMENTS
