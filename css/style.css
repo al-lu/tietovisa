@@ -12,7 +12,8 @@ Contents:
 2.  Nav And Header
 3.  Hero Section
 4.  Game Introduction
-5.  Footer Styles
+5.  Formal Instruction Styles
+6.  Footer Styles
 
 Main Colors :   #6EC000 GREEN
             :   #e1e1e1 White
@@ -346,9 +347,52 @@ header nav ul li a:hover,header nav ul li a:focus
     color: #f6f6f6;
 }
 
+/****************************************************************************************************/
+/*----------------------- 5. Formal Instruction Styles  --------------------------------------------*/
+/****************************************************************************************************/
+
+.playing-instruction{
+    padding-top: 5px;
+    margin-left: 35%;
+    padding-left: 7px;
+    padding-bottom: 30px;
+}
+
+ol {
+    max-width: 350px;
+    counter-reset: counter;
+    list-style: none;
+    padding-left: 40px;
+  }
+  ol li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: counter;
+    position: relative;
+    padding-bottom: 10px;
+    line-height: 30px;
+  }
+  ol li::before {
+    content: counter(counter);
+    color: #fcd000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    transform: rotate(-10deg);
+    background: black;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #999;
+  }
+
 
 /*****************************************************************************************/
-/*----------------------- 1.  Footer Styles  --------------------------------------------*/
+/*----------------------- 6.  Footer Styles  --------------------------------------------*/
 /*****************************************************************************************/
 
 footer

@@ -11,6 +11,7 @@ Contents:
 1.  Responsive Styles for 1010px, 560px and 400px breakpoint
 2.  Nav And Header
 3.  Hero Section
+4.  Formal Instruction Styles
 
 Main Colors :   #6EC000 GREEN
             :   #e1e1e1 White
@@ -103,6 +104,10 @@ Main Colors :   #6EC000 GREEN
     .hero a.btn{
         display: none;
     }
+
+    .playing-instruction{
+        margin-left: 30%;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -114,6 +119,10 @@ Main Colors :   #6EC000 GREEN
     .hero h2
     {
         font-size: 4em;
+    }
+
+    .playing-instruction{
+        margin-left: 20%;
     }
 }
 
