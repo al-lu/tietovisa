@@ -411,29 +411,3 @@ footer
     padding: 25px 0;
     
 }
-
-.social-icon a{
-    margin: 0 16px 20px 16px;
-    display: inline-block;
-    
-    
-}
-
-.social-icon .fab
-{
-    font-size: 50px;
-    color: darkred;
-    width: 80px;
-    height: 70px;
-    border-radius: #e1e1e1;
-    line-height: 1.2;
-    border-radius: 30%;
-    transition: 0.3s;
-    border: 5px solid red;
-    text-align: center;
-}
-
-.social-icon a:hover .fab
-{
-    border: 5px solid #e1e1e1;
-}
