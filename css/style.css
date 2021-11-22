@@ -149,6 +149,11 @@ header nav ul li a:hover,header nav ul li a:focus
     background-size: cover;
 }
 
+/****************************  Hero "taitosi" section of the text. DELETE IF STARTS TO LOOK BAD  ********************************************/
+.links,#skills{
+    color: #6EC000;
+}
+
 .hero,.hero ul,.hero ul li
 {
     height: 750px;
