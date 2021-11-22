@@ -1,0 +1,22 @@
+/*
+
+Authors :   Toni Leinonen
+
+Contents:
+
+1.  Game Site Styles
+
+Main Colors :   #6EC000 GREEN
+            :   #e1e1e1 White
+            :   #C4CB11 Hero YELLOW
+            :   #818181 Sub-heading text Light Brown
+            :   #f7f7f7 Game intro BACKGROUND WHITE
+
+*/
+
+#quiz{
+    margin: auto;
+    width: 30vw;
+    background-color: #C4CB11;
+    border: 2px #6EC000 solid;
+}
