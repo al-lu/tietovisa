@@ -120,7 +120,6 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .hamburger 
 {
-<<<<<<< HEAD
     display: none;
 }
 
@@ -133,10 +132,9 @@ header nav ul li a:hover,header nav ul li a:focus
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
-=======
-    background-image: url(../images/education-background.png);
+
+    background-image: url("../images/education-background.png");
     background-size: cover;
->>>>>>> 54ffab9b959db177d4e54aec11f4c24354ae6af4
 }
 
 
