@@ -1,0 +1,129 @@
+/*
+
+Authors :   Aleksi Kallio
+        :   Joona Karhu
+        :   Aapo Salo
+        :   Sami Nousiainen
+        :   Toni Leinonen    
+
+Contents:
+
+1.  Responsive Styles for 1010px, 560px and 400px breakpoint
+2.  Nav And Header
+3.  Hero Section
+4.  Formal Instruction Styles
+
+Main Colors :   #6EC000 GREEN
+            :   #e1e1e1 White
+            :   #C4CB11 Hero YELLOW
+            :   #818181 Sub-heading text Light Brown
+            :   #f7f7f7 Game intro BACKGROUND WHITE
+
+
+*/
+
+
+.hamburger-menu
+{
+    display: none;
+}
+
+@media screen and (max-width: 1010px){
+    
+    .hero{
+        margin-top: 85px;
+    }
+    
+    header{
+        margin-top: -85px;
+        background-color: #6EC000;
+    }
+    
+    /* #menu{
+        display: none; 
+    } */
+
+    /* .logo-text
+    {
+        display: none;
+    } */
+
+    .hero h2
+    {
+        margin-top: 200px;
+    }
+
+    .menu {
+        position: fixed;
+        left: -100%;
+        top: 9rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    .menu-link{
+        color: black;
+    }
+
+    .menu-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        padding-right: 15px;
+        padding-top: 30px;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    .hero a.btn{
+        display: none;
+    }
+
+    .playing-instruction{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .logo-text{
+        display: none;
+    }
+
+    .hero h2
+    {
+        font-size: 4em;
+    }
+
+    .playing-instruction{
+        margin-left: 20%;
+    }
+}
+
+
