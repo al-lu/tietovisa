@@ -368,15 +368,17 @@ ol {
     counter-reset: counter;
     list-style: none;
     padding-left: 40px;
-  }
-  ol li {
+}
+
+ol li {
     margin: 0 0 0.5rem 0;
     counter-increment: counter;
     position: relative;
     padding-bottom: 10px;
     line-height: 30px;
-  }
-  ol li::before {
+}
+
+ol li::before {
     content: counter(counter);
     color: #fcd000;
     font-size: 1.5rem;
@@ -393,7 +395,7 @@ ol {
     border-radius: 50%;
     text-align: center;
     box-shadow: 1px 1px 0 #999;
-  }
+}
 
 
 /*****************************************************************************************/
