@@ -1,4 +1,0 @@
-/**
-  * @author Toni Leinonen
-  *
-*/

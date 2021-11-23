@@ -1,4 +1,0 @@
-/**
-  * @author Sami Nousiainen
-  *
-*/
