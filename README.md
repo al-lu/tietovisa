@@ -14,7 +14,7 @@ INTRODUCTION
 
 !!!    JOS JOKU LUKEE TÄN NII KIRJOTTAKAA TÄNNE MILLE LUOKALLE TEETTE PELIN.   !!!
 
-Aapo,
+Aapo, 3. Luokka,
 
 Joona 1. Luokka,
 
