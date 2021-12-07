@@ -16,8 +16,15 @@ Main Colors :   #6EC000 GREEN
 
 .slider {
     background-image: url(../images/education-background.png);
-    color: thistle;
+    
 }
-h3 {
-   background-color: black;
+#quiz {
+    display: block;
+    width: 40vw;
+    text-align: center;
+    background-color: yellowgreen;
+    margin-left: 30vw;
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 100px;
 }
