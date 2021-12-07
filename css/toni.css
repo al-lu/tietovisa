@@ -15,8 +15,18 @@ Main Colors :   #6EC000 GREEN
 */
 
 #quiz{
-    margin: auto;
-    width: 30vw;
-    background-color: #C4CB11;
+    background-color: tomato;
+    width: 40vw;
     border: 2px #6EC000 solid;
+    text-align: center;
+    margin-left: 30vw;
+}
+
+.slider{
+    background-image: url(../images/education-background.png);
+    
+}
+
+#quiz h2{
+    font-weight: bold;
 }
