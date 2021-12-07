@@ -14,6 +14,10 @@ Main Colors :   #6EC000 GREEN
 
 */
 
-body {
-    background-color: aquamarine;
+.slider {
+    background-image: url(../images/education-background.png);
+    color: thistle;
+}
+h3 {
+   background-color: black;
 }
