@@ -142,7 +142,10 @@ p {
     text-decoration: underline;
 }
 
+
 label {
+    display: inline-block;
+    width: 75px;
     padding-right: 5px;
 }
 
