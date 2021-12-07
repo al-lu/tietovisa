@@ -125,8 +125,14 @@ header nav ul li a:hover,header nav ul li a:focus
     display: none;
 }
 
+.slider{
+    background-image: url(../images/education-background.png);
+}
+
 .quiz {
     display: block;
+    width: 40vw;
+    margin-left: 30vw;
     padding-top: 100px;
     padding-left: 15px;
     background-color: yellow;
@@ -136,6 +142,13 @@ p {
     text-decoration: underline;
 }
 
+label {
+    padding-right: 5px;
+}
+
+.check {
+    margin-bottom: 15px;
+}
 
 footer
 {
