@@ -88,10 +88,9 @@ function clearStatusClass(element) {
 //   return result
 // }
 
-console.log(chemical_formula("H2O"));
 
 
-str = "2";
+
 // Kemia Atomit Ja Molekyylit
 const questions = [
   {
@@ -121,13 +120,4 @@ const questions = [
       { text: 'Au', correct: false }
     ]
   },
-  {
-    question: '',
-    answers: [
-      { text: 'Koira', correct: false },
-      { text: 'Lehmä', correct: false },
-      { text: 'Kissa', correct: true },
-      { text: 'Sika', correct: false }
-    ]
-  }
 ]
