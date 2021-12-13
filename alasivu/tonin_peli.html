@@ -47,44 +47,49 @@
                 <p></p><br>
                 <div id="quiz">
                     <h2>Valitse yksi vaihtoehto per kysymys</h2>
-                    <div id="ekaKyssäri">
+                    <div id="firstQuestion">
                         <h3>Mikä seuraavista vaihtoehdoista on englanniksi "Mitä kuuluu?"?</h3>
-                        <label for="spanish">cómo estás?</label> <input type="radio" name="firstQ" id="spanish"> <br>
+                        <label for="spanish">Cómo estás?</label> <input type="radio" name="firstQ" id="spanish"> <br>
                         <label for="english">How are you?</label><input type="radio" name="firstQ" id="english"> <br>
                         <label for="swedish">Hur mår du?</label><input type="radio" name="firstQ" id="swedish"> <br>
-                        <label for="german">wie geht's?</label><input type="radio" name="firstQ" id="german">
+                        <label for="german">Wie geht's?</label><input type="radio" name="firstQ" id="german"> <br>
+                        <div id="questionCheck"></div>
                     </div>
-                    <div id="tokaKyssäri">
+                    <div id="secondQuestion">
                         <h3>Onko Ylläs:</h3>
-                        <label for="">Etelä-Suomessa</label><input type="radio" name="secondQ" id=""> <br>
-                        <label>Itä-Suomessa</label><input type="radio" name="secondQ" id=""> <br>
-                        <label>Lapissa</label><input type="radio" name="secondQ" id=""> <br>
-                        <label>Suomen ulkopuolella</label><input type="radio" name="secondQ" id="">
+                        <label for="etelaSuomi">Etelä-Suomessa</label><input type="radio" name="secondQ" id="etelaSuomi"> <br>
+                        <label for="itaSuomi">Itä-Suomessa</label><input type="radio" name="secondQ" id="itaSuomi"> <br>
+                        <label for="lappi">Lapissa</label><input type="radio" name="secondQ" id="lappi"> <br>
+                        <label for="ulkopuolella">Suomen ulkopuolella</label><input type="radio" name="secondQ" id="ulkopuolella"> <br>
+                        <div id="questionCheck2"></div>
                     </div>
-                    <div id="kolmasKyssäri">
+                    <div id="thirdQuestion">
                         <h3>Mikä eläin on kuvassa?</h3>
                         <img src="../images/tonin-peli-kuvat/moose.jpg" alt=""> <br>
                         <label for="hirvi">Hirvi</label><input type="radio" name="thirdQ" id="hirvi"> <br>
                         <label for="peura">Peura</label><input type="radio" name="thirdQ" id="peura"> <br>
-                        <label for="vasikka">Vasikka</label><input type="radio" name="thirdQ" id="vasikka">
+                        <label for="vasikka">Vasikka</label><input type="radio" name="thirdQ" id="vasikka"> <br>
+                        <div id="questionCheck3"></div>
                     </div>
-                    <div id="neljäsKyssäri">
+                    <div id="fourtQuestion">
                         <h3>Mikä puulajike on kuvassa?</h3>
                         <img src="../images/tonin-peli-kuvat/birch.jpg" alt=""> <br>
-                        <label>Haapa</label><input type="radio" name="fourthQ" id="haapa"> <br>
-                        <label>Mänty</label><input type="radio" name="fourthQ" id="manty"> <br>
-                        <label>Koivu</label><input type="radio" name="fourthQ" id="koivu"> <br>
-                        <label>Kuusi</label><input type="radio" name="fourthQ" id="kuusi">
-
+                        <label for="haapa">Haapa</label><input type="radio" name="fourthQ" id="haapa"> <br>
+                        <label for="manty">Mänty</label><input type="radio" name="fourthQ" id="manty"> <br>
+                        <label for="koivu">Koivu</label><input type="radio" name="fourthQ" id="koivu"> <br>
+                        <label for="kuusi">Kuusi</label><input type="radio" name="fourthQ" id="kuusi"> <br>
+                        <div id="questionCheck4"></div>
                     </div>
-                    <div id="viidesKyssäri">
+                    <div id="fifthQuestion">
                         <h3>Montako vuodenaikaa Suomessa on?</h3>
-                        <label>3</label><input type="radio" name="fiftQ" id=""> <br>
-                        <label>6</label><input type="radio" name="fiftQ" id=""> <br>
-                        <label>5</label><input type="radio" name="fiftQ" id=""> <br>
-                        <label>4</label><input type="radio" name="fiftQ" id="">
+                        <label for="num3">3</label><input type="radio" name="fifthQ" id="num3"> <br>
+                        <label for="num6">6</label><input type="radio" name="fifthQ" id="num6"> <br>
+                        <label for="num5">5</label><input type="radio" name="fifthQ" id="num5"> <br>
+                        <label for="num4">4</label><input type="radio" name="fifthQ" id="num4">
+                        <div id="questionCheck5"></div>
                     </div>
-                    <button>Tarkista</button>
+                    <button onclick="checkAnswer()">Tarkista</button>
+                    <div id="total"></div>
                 </div>
             </li>
         </ul>
@@ -103,7 +108,7 @@
         </div>
     </footer>
     <article></article>
-    <script src="../js/main.js" async defer></script>
+    <script src="../js/toni.js" async defer></script>
 </body>
 
 </html>
