@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 CONTENTS OF THIS FILE
 ---------------------
 
@@ -45,7 +44,7 @@ FAQ
 
 MAINTAINERS
 -----------
-=======
+
 CONTENTS OF THIS FILE
 ---------------------
 
@@ -92,4 +91,4 @@ FAQ
 
 MAINTAINERS
 -----------
->>>>>>> main
+
