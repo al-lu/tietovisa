@@ -135,6 +135,7 @@ header nav ul li a:hover,header nav ul li a:focus
     margin-left: 30vw;
     padding-top: 100px;
     padding-left: 15px;
+    padding-bottom: 15px;
     background-color: yellow;
 }
 p {
