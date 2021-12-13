@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fi">
 
@@ -6,19 +7,21 @@
     <meta name="HandheldFriendly" content="true">
     <title>Tietovisa Etusivu</title>
     <link rel="shortcut icon" type="" href="">
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/joona.css" rel="stylesheet" type="text/css">
     <link href="../css/responsive.css" rel="stylesheet" type="text/css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/all.min.css">
+
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!--Menu valikko-->
+    
 </head>
 
 <body>
@@ -33,25 +36,64 @@
 
                 <nav>
                     <ul class="menu" id="menu">
-                        <li><a href="#slider-carousel">Etusivu</a></li>
+                        <li><a href="../index.html">Etusivu</a></li>
                         <li><a href="../alasivu/tietoja.html">Tietoja</a></li>
                     </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </nav>
             </div>
         </div>
     </header>
    
     <!-- tietovisa tähän -->
+ <section class="slider">
     <section class="quiz">
         <div class="first">
-            <p>eka kyssäri</p>
-            <input type="radio" name="first" id="first">
-            <input type="radio" name="second" id="second">
-            <input type="radio" name="third" id="third">
+            <p>1. Mikä näistä sanoista on vihreä englanniksi?</p>
+            <label for="first">Yellow</label><input type="radio" name="first" id="first"><br>
+            <label for="second">Blue</label><input type="radio" name="first" id="second"><br>
+            <label for="third">Green</label><input type="radio" name="first" id="third"><br>
+            <label for="fourth">Red</label><input type="radio" name="first" id="fourth">
+        </div><br>
+        <div class="second">
+            <p>2. Mikä on Suomen virallinen toinen kieli?</p>
+            <label for="first">Venäjä</label><input type="radio" name="second" id=""><br>
+            <label for="second">Englanti</label><input type="radio" name="second" id=""><br>
+            <label for="third">Viro</label><input type="radio" name="second" id=""><br>
+            <label for="fourth">Ruotsi</label><input type="radio" name="second" id="">
+        </div><br>
+        <div class="third">
+            <p>3. Mikä on Suomen kansallislintu?</p>
+            <label for="">Kotka</label><input type="radio" name="third" id=""><br>
+            <label for="">Joutsen</label><input type="radio" name="third" id=""><br>
+            <label for="">Peippo</label><input type="radio" name="third" id=""><br>
+            <label for="">Varis</label><input type="radio" name="third" id="">
+        </div><br>
+        <div class="fourth">
+            <p>4. Mikä on Suomen pääkaupunki?</p>
+            <label for="">Oulu</label><input type="radio" name="fourth" id=""><br>
+            <label for="">Tampere</label><input type="radio" name="fourth" id=""><br>
+            <label for="">New York</label><input type="radio" name="fourth" id=""><br>
+            <label for="">Helsinki</label><input type="radio" name="fourth" id=""><br>
+            <label for="">Turku</label><input type="radio" name="fourth" id="">
+        </div><br>
+        <div class="fifth">
+            <p>5. Montako kuukautta vuodessa on?</p>
+            <label for="">12</label><input type="radio" name="fifth" id=""><br>
+            <label for="">10</label><input type="radio" name="fifth" id=""><br>
+            <label for="">14</label><input type="radio" name="fifth" id=""><br>
+            <label for="">6</label><input type="radio" name="fifth" id="">
+        </div><br>
 
-        </div>
+        <button class="check">Tarkista</button>
+        <div id="points"></div><br>
+        
     </section>
-
+</section>
     <footer>
         <div class="container">
             <div class="row">
@@ -67,4 +109,3 @@
     <script src="../js/main.js" async defer></script>
 </body>
 
-</html>
