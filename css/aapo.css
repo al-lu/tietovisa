@@ -1,42 +1,31 @@
-<<<<<<< HEAD
 /*
-
 Authors :   Aapo Salo 
-
 Contents:
-
 1.  Game Site Styles
-
 Main Colors :   #6EC000 GREEN
             :   #e1e1e1 White
             :   #C4CB11 Hero YELLOW
             :   #818181 Sub-heading text Light Brown
             :   #f7f7f7 Game intro BACKGROUND WHITE
-
 */
 
 
-p {
-    font-size: 10px;
-=======
-/*
 
-Authors :   Aapo Salo 
+h3 {
+    background-color: #C4CB11;
+}
 
-Contents:
+.slider {
+    background-image: url(../images/education-background.png);
+}
 
-1.  Game Site Styles
-
-Main Colors :   #6EC000 GREEN
-            :   #e1e1e1 White
-            :   #C4CB11 Hero YELLOW
-            :   #818181 Sub-heading text Light Brown
-            :   #f7f7f7 Game intro BACKGROUND WHITE
-
-*/
-
-
-p {
-    font-size: 10px;
->>>>>>> main
+#quiz {
+    display: block;
+    width: 40vw;
+    text-align: center;
+    background-color: #6EC000;
+    margin-left: 30vw;
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 100px;
 }

@@ -1,46 +1,27 @@
-<<<<<<< HEAD
 /*
-
 Authors :   Toni Leinonen
-
 Contents:
-
 1.  Game Site Styles
-
 Main Colors :   #6EC000 GREEN
             :   #e1e1e1 White
             :   #C4CB11 Hero YELLOW
             :   #818181 Sub-heading text Light Brown
             :   #f7f7f7 Game intro BACKGROUND WHITE
-
 */
 
 #quiz{
-    margin: auto;
-    width: 30vw;
-    background-color: #C4CB11;
+    background-color: tomato;
+    width: 40vw;
     border: 2px #6EC000 solid;
-=======
-/*
+    text-align: center;
+    margin-left: 30vw;
+}
 
-Authors :   Toni Leinonen
+.slider{
+    background-image: url(../images/education-background.png);
+    
+}
 
-Contents:
-
-1.  Game Site Styles
-
-Main Colors :   #6EC000 GREEN
-            :   #e1e1e1 White
-            :   #C4CB11 Hero YELLOW
-            :   #818181 Sub-heading text Light Brown
-            :   #f7f7f7 Game intro BACKGROUND WHITE
-
-*/
-
-#quiz{
-    margin: auto;
-    width: 30vw;
-    background-color: #C4CB11;
-    border: 2px #6EC000 solid;
->>>>>>> main
+#quiz h2{
+    font-weight: bold;
 }

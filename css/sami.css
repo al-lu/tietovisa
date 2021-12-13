@@ -1,22 +1,3 @@
-
-/*
-
-Authors :   Sami Nousiainen
-
-Contents:
-
-1.  Game Site Styles
-
-Main Colors :   #6EC000 GREEN
-            :   #e1e1e1 White
-            :   #C4CB11 Hero YELLOW
-            :   #818181 Sub-heading text Light Brown
-            :   #f7f7f7 Game intro BACKGROUND WHITE
-
-*/
-
-body {
-    background-color: aquamarine;
 /*
 
 Authors :   Sami Nousiainen
@@ -35,8 +16,10 @@ Main Colors :   #6EC000 GREEN
 
 
 body {
+
     background-color: aquamarine;
 
+}
 
 .slider {
     background-image: url(../images/education-background.png);
