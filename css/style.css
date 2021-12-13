@@ -1,27 +1,21 @@
 /*
-
 Authors :   Aleksi Kallio
         :   Joona Karhu
         :   Aapo Salo
         :   Sami Nousiainen
         :   Toni Leinonen    
-
 Contents:
-
 1.  Global Styles & Typography
 2.  Nav And Header
 3.  Hero Section
 4.  Game Introduction
 5.  Formal Instruction Styles
 6.  Footer Styles
-
 Main Colors :   #6EC000 GREEN
             :   #e1e1e1 White
             :   #C4CB11 Hero YELLOW
             :   #818181 Sub-heading text Light Brown
             :   #f7f7f7 Game intro BACKGROUND WHITE
-
-
 */
 
 /*****************************************************************************************/
@@ -422,6 +416,33 @@ ol li::before {
     box-shadow: 1px 1px 0 #999;
 }
 
+.sliderInfo{
+    text-align: center;
+    padding-top: 100px;
+    background-image: url(../images/education-background.png);
+}
+
+.sliderInfo span{
+    color: #C4CB11;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
+    font-size: 2em;
+    padding-bottom: 50px;
+    
+}
+
+.sliderInfo h3 {
+    color: #6EC000;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
+    font-size: 1.5em;
+}
+
+.sliderInfo table {
+    color: white;
+}
 
 /*****************************************************************************************/
 /*----------------------- 6.  Footer Styles  --------------------------------------------*/
