@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*
 
 Authors :   Sami Nousiainen
@@ -17,7 +17,6 @@ Main Colors :   #6EC000 GREEN
 
 body {
     background-color: aquamarine;
-=======
 /*
 
 Authors :   Sami Nousiainen
@@ -34,7 +33,23 @@ Main Colors :   #6EC000 GREEN
 
 */
 
+
 body {
     background-color: aquamarine;
->>>>>>> main
+
+
+.slider {
+    background-image: url(../images/education-background.png);
+    
+}
+#quiz {
+    display: block;
+    width: 40vw;
+    text-align: center;
+    background-color: yellowgreen;
+    margin-left: 30vw;
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+
 }

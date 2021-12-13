@@ -203,43 +203,54 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
+// function chemical_formula(string) {
+//   result = string
+//     .split(/(\d+)/)
+//     .map((s, i) => i % 2 ? `<sub>${s}</sub>` : s)
+//     .join('');
+//   return result
+// }
+
+console.log(chemical_formula("H2O"));
 
 
+str = "2";
+// Kemia Atomit Ja Molekyylit
 const questions = [
   {
-    question: 'What do you do if your code builds on the first try?',
+    question: 'Aineen pienin rakenneosanen on...',
     answers: [
-      { text: 'Buy a lottery ticket', correct: true },
-      { text: 'Act like it has happened before.', correct: false },
-      { text: 'Go to stack overflow and brag about it.', correct: false },
-      { text: 'Get a feeling that you have missed something.', correct: true }
+      { text: 'atomi', correct: true },
+      { text: 'molekyyli', correct: false },
+      { text: 'ioni', correct: false },
+      { text: 'millilitra', correct: false }
     ]
   },
   {
-    question: 'What is the golden rule in programming?',
+    question: 'Atomien yhteenliittymä on...',
     answers: [
-      { text: 'If it works, don’t touch it.', correct: true },
-      { text: 'Artificial intelligence is no match for natural stupidity.', correct: true },
-      { text: 'You should not confuse your career with your life.', correct: true },
-      { text: 'He who has the gold makes the rules.', correct: true }
+      { text: 'atomi', correct: false },
+      { text: 'multiatomi', correct: false },
+      { text: 'kemiallinen yhdiste', correct: false },
+      { text: 'molekyyli', correct: true }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Sokerin kemiallinen kaava on...',
     answers: [
-      { text: 'Kinda.', correct: true },
-      { text: 'YES!!!', correct: true },
-      { text: 'NO!!!', correct: false },
-      { text: 'Dont know.', correct: false }
+      { text: 'Fe', correct: false },
+      { text: 'H', correct: true },
+      { text: 'Mg', correct: false },
+      { text: 'Au', correct: false }
     ]
   },
   {
-    question: 'What word to use to get what you want?',
+    question: '',
     answers: [
-      { text: 'Sudo', correct: true },
-      { text: 'Gimme', correct: false },
-      { text: 'Please', correct: false },
-      { text: 'I AM ROOT!!!', correct: false }
+      { text: 'Koira', correct: false },
+      { text: 'Lehmä', correct: false },
+      { text: 'Kissa', correct: true },
+      { text: 'Sika', correct: false }
     ]
   }
 >>>>>>> main
