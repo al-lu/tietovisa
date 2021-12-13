@@ -12,7 +12,7 @@ function checkAnswer(){
   let koivu = document.getElementById('koivu');
   let vuodenaika = document.getElementById('num4');
 
-  if(english.checked = true){
+  if(english.checked === true){
     counter++;
     document.getElementById('questionCheck').innerHTML = "Oikein!";
   }
@@ -20,7 +20,7 @@ function checkAnswer(){
     document.getElementById('questionCheck').innerHTML = "Pieleen meni :(";
   }
 
-  if(lappi.checked = true) {
+  if(lappi.checked ===true) {
     counter++;
     document.getElementById('questionCheck2').innerHTML = "Oikein!";
   }
@@ -28,7 +28,7 @@ function checkAnswer(){
     document.getElementById('questionCheck2').innerHTML = "Pieleen meni :(";
   }
 
-  if(hirvi.checked = true) {
+  if(hirvi.checked === true) {
     counter++;
     document.getElementById('questionCheck3').innerHTML = "Oikein!";
   }
@@ -36,7 +36,7 @@ function checkAnswer(){
     document.getElementById('questionCheck3').innerHTML = "Pieleen meni :(";
   }
 
-  if(koivu.checked = true) {
+  if(koivu.checked === true) {
     counter++;
     document.getElementById('questionCheck4').innerHTML = "Oikein!";
   }
@@ -44,7 +44,7 @@ function checkAnswer(){
     document.getElementById('questionCheck4').innerHTML = "Pieleen meni :(";
   }
 
-  if(vuodenaika.checked = true) {
+  if(vuodenaika.checked === true) {
     counter++;
     document.getElementById('questionCheck5').innerHTML = "Oikein!";
   }
