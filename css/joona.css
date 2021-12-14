@@ -126,7 +126,9 @@ header nav ul li a:hover,header nav ul li a:focus
 }
 
 .slider{
-    background-image: url(../images/education-background.png);
+    background-image: url(../images/school-background.png);
+    background-size: cover;
+    
 }
 
 .quiz {
@@ -136,17 +138,16 @@ header nav ul li a:hover,header nav ul li a:focus
     padding-top: 100px;
     padding-left: 15px;
     padding-bottom: 15px;
-    background-color: yellow;
+    background-color: rgba(243, 220, 11, 0.918);
+
 }
 
 [id*='answer' i] {
-    
     font-weight: bold;
 }
 
 #points {
     padding-bottom: 2px;
-    
     font-size: 1.2em;
 }
 
@@ -158,6 +159,11 @@ label {
 
 .check {
     margin-bottom: 15px;
+}
+
+label:hover {
+    text-decoration: wavy;
+    font-weight: bolder;
 }
 
 
