@@ -16,7 +16,7 @@ function checkAnswer(){
         document.getElementById('questionCheck').innerHTML = "Oikea vastaus!";
     }
     else {
-        document.getElementById('questionCheck').innerHTML = "Väärä vastaus!";
+        document.getElementById('questionCheck').innerHTML = "Väärä vastaus! Oikea vastaus on Vuonna 1917.";
     }
 
     if (sanna.checked === true){
@@ -24,7 +24,7 @@ function checkAnswer(){
         document.getElementById('questionCheck2').innerHTML = "Oikea vastaus!";
     }
     else {
-        document.getElementById('questionCheck2').innerHTML = "Väärä vastaus!";
+        document.getElementById('questionCheck2').innerHTML = "Väärä vastaus! Oikea vastaus on Sanna Marin.";
     }
 
     if (missä.checked === true){
@@ -32,7 +32,7 @@ function checkAnswer(){
         document.getElementById('questionCheck3').innerHTML = "Oikea vastaus!";
     }
     else {
-        document.getElementById('questionCheck3').innerHTML = "Väärä vastaus!";
+        document.getElementById('questionCheck3').innerHTML = "Väärä vastaus! Oikea vastaus on 'Missä olet?'.";
     }
 
     if (rooma.checked === true){
@@ -40,7 +40,7 @@ function checkAnswer(){
         document.getElementById('questionCheck4').innerHTML = "Oikea vastaus!";
     }
     else {
-        document.getElementById('questionCheck4').innerHTML = "Väärä vastaus!";
+        document.getElementById('questionCheck4').innerHTML = "Väärä vastaus! Oikea vastaus on Rooma.";
     }
 
     if (numero503.checked === true){
@@ -48,11 +48,12 @@ function checkAnswer(){
         document.getElementById('questionCheck5').innerHTML = "Oikea vastaus!";
     }
     else {
-        document.getElementById('questionCheck5').innerHTML = "Väärä vastaus!";
+        document.getElementById('questionCheck5').innerHTML = "Väärä vastaus! Oikea vastaus on 503.";
     }
-    document.getElementById('total').innerHTML = "Onnistuit saamaan "  + counter + " pistettä! " + "Suurin mahdollinen pistemäärä on 5."
+   
     
     document.getElementById('check').style.display = "none"
      
   document.getElementById('refresh').style.display = "inline-block"
+  document.getElementById('total').innerHTML = "Onnistuit saamaan "  + counter + "/5 oikein. " + "Jos pisteesi eivät vakuuta, kokeile ihmeessä uudestaan!"
 }{}
