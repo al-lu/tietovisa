@@ -54,44 +54,49 @@
     <section class="quiz">
         <h2>Luokka 1.</h2>
         <div class="first">
-            <p>1. Mikä näistä sanoista on vihreä englanniksi?</p>
+            <h4>1. Mikä näistä sanoista on vihreä englanniksi?</h4>
             <label for="first">Yellow</label><input type="radio" name="first" id="first"><br>
             <label for="second">Blue</label><input type="radio" name="first" id="second"><br>
             <label for="third">Green</label><input type="radio" name="first" id="third"><br>
-            <label for="fourth">Red</label><input type="radio" name="first" id="fourth">
+            <label for="fourth">Red</label><input type="radio" name="first" id="fourth"><br>
+            <p id="answer1"></p>
         </div><br>
         <div class="second">
-            <p>2. Mikä on Suomen virallinen toinen kieli?</p>
+            <h4>2. Mikä on Suomen virallinen toinen kieli?</h4>
             <label for="first2">Venäjä</label><input type="radio" name="second" id="first2"><br>
             <label for="second2">Englanti</label><input type="radio" name="second" id="second2"><br>
             <label for="third2">Viro</label><input type="radio" name="second" id="third2"><br>
-            <label for="fourth2">Ruotsi</label><input type="radio" name="second" id="fourth2">
+            <label for="fourth2">Ruotsi</label><input type="radio" name="second" id="fourth2"><br>
+            <p id="answer2"></p>
         </div><br>
         <div class="third">
-            <p>3. Mikä on Suomen kansallislintu?</p>
+            <h4>3. Mikä on Suomen kansallislintu?</h4>
             <label for="first3">Kotka</label><input type="radio" name="third" id="first3"><br>
             <label for="second3">Joutsen</label><input type="radio" name="third" id="second3"><br>
             <label for="third3">Peippo</label><input type="radio" name="third" id="third3"><br>
-            <label for="fourth3">Varis</label><input type="radio" name="third" id="fourth3">
+            <label for="fourth3">Varis</label><input type="radio" name="third" id="fourth3"><br>
+            <p id="answer3"></p>
         </div><br>
         <div class="fourth">
-            <p>4. Mikä on Suomen pääkaupunki?</p>
+            <h4>4. Mikä on Suomen pääkaupunki?</h4>
             <label for="first4">Oulu</label><input type="radio" name="fourth" id="first4"><br>
             <label for="second4">Tampere</label><input type="radio" name="fourth" id="second4"><br>
-            <label for="third4">New York</label><input type="radio" name="fourth" id="third4"><br>
+            <label for="third4">Turku</label><input type="radio" name="fourth" id="third4"><br>
             <label for="fourth4">Helsinki</label><input type="radio" name="fourth" id="fourth4"><br>
+            <p id="answer4"></p>
         </div><br>
         <div class="fifth">
-            <p>5. Montako kuukautta vuodessa on?</p>
+            <h4>5. Montako kuukautta vuodessa on?</h4>
             <label for="first5">12</label><input type="radio" name="fifth" id="first5"><br>
             <label for="second5">10</label><input type="radio" name="fifth" id="second5"><br>
             <label for="third5">14</label><input type="radio" name="fifth" id="third5"><br>
-            <label for="fourth5">6</label><input type="radio" name="fifth" id="fourth5">
+            <label for="fourth5">6</label><input type="radio" name="fifth" id="fourth5"><br>
+            <p id="answer5"></p>
         </div><br>
 
+        <div id="points"></div>
         <button onclick="checkAnswers()" id="check">Tarkista</button>
         <button onclick="window.location.reload();" id="reload" hidden>Yritä uudestaan</button>
-        <div id="points"></div>
         
     </section>
 </section>
@@ -100,7 +105,7 @@
             <div class="row">
                 <div class="col-sm12 text-center">
                     <div class="copyright">
-                        <p>&copy;Ryhmä Kymppi 2021</p>
+                        <p style="text-decoration: none;">&copy;Ryhmä Kymppi 2021</p>
                     </div>
                 </div>
             </div>

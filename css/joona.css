@@ -138,11 +138,17 @@ header nav ul li a:hover,header nav ul li a:focus
     padding-bottom: 15px;
     background-color: yellow;
 }
-p {
+
+[id*='answer' i] {
+    
     font-weight: bold;
-    text-decoration: underline;
 }
 
+#points {
+    padding-bottom: 2px;
+    
+    font-size: 1.2em;
+}
 
 label {
     display: inline-block;
@@ -153,6 +159,7 @@ label {
 .check {
     margin-bottom: 15px;
 }
+
 
 footer
 {
