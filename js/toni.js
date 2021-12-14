@@ -66,7 +66,7 @@ function checkAnswer(){
 
   document.getElementById('total').innerHTML = "Pisteesi: " + counter + ". " + "Maksimi pistemäärä on 5."
 
-  // Nappia painattaessa, tarkista nappi häviää ja sen tilalle tulee yritä uudestaan -nappi
+  // Nappia painattaessa, tarkista nappi häviää ja sen tilalle tulee yritä uudestaan nappi
   document.getElementById('check').style.display = "none"
   document.getElementById('refresh').style.display = "inline-block"
 }
