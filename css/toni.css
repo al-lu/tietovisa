@@ -169,7 +169,7 @@ label {
 }
 
 [id*="Question"] {
-    border-bottom: 2px black solid;
+    border-bottom: 1px black solid;
 }
 /* label:hover {
     font-weight: bold;
