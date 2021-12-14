@@ -10,7 +10,7 @@ Main Colors :   #6EC000 GREEN
 */
 
 #quiz{
-    background-color: rgb(196, 203, 17, 0.65);
+    background-color: rgba(196, 203, 17, 0.65);
     width: 40vw;
     border: 2px #6EC000 solid;
     text-align: center;
@@ -43,9 +43,9 @@ label {
     margin: 10px;
     font-weight: bolder;
 }
+
 [id*="questionCheck" i] {
     font-weight: bold;
-    
 }
 
 button {
