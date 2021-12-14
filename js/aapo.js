@@ -50,5 +50,5 @@ function checkAnswer(){
     else {
         document.getElementById('questionCheck5').innerHTML = "Väärä vastaus!";
     }
-    document.getElementById('total').innerHTML = "Onnistuit saamaan"  + counter + " pistettä! " + "Maksimi pistemäärä on 5."
+    document.getElementById('total').innerHTML = "Onnistuit saamaan "  + counter + " pistettä! " + "Maksimi pistemäärä on 5."
 }{}
