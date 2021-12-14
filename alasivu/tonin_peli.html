@@ -26,7 +26,9 @@
     <header>
         <div class="container">
             <div class="row">
-                <a href="" class="logo"><img src="../images/bulb-logo.png" alt="Logo tahan"></a>
+                <a href="../index.html" class="logo"><img src="../images/bulb-logo.png"
+                    onmouseover="this.src='../images/bulb-light-logo.png'"
+                    onmouseout="this.src='../images/bulb-logo.png'" alt="Logo"></a>
                 <img class="logo-text" src="../images/tietovisa-logo.png" alt="Logo-Text">
 
                 <nav>
@@ -88,8 +90,9 @@
                         <label for="num4">4</label><input type="radio" name="fifthQ" id="num4">
                         <div id="questionCheck5"></div>
                     </div>
-                    <button onclick="checkAnswer()">Tarkista</button>
                     <div id="total"></div>
+                    <button onclick="checkAnswer()" id="check">Tarkista</button>
+                    <button onClick="window.location.reload();" hidden id="refresh">Yritä uudelleen</button>
                 </div>
             </li>
         </ul>
@@ -108,6 +111,7 @@
         </div>
     </footer>
     <article></article>
+    <script src="../js/main.js"></script>
     <script src="../js/toni.js" async defer></script>
 </body>
 
