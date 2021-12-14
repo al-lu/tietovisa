@@ -51,4 +51,6 @@ function checkAnswer(){
         document.getElementById('questionCheck5').innerHTML = "Väärä vastaus!";
     }
     document.getElementById('total').innerHTML = "Onnistuit saamaan "  + counter + " pistettä! " + "Suurin mahdollinen pistemäärä on 5."
+    
+    document.getElementById('reload').style.display = 'block';
 }{}
