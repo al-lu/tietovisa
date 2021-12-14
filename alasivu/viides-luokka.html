@@ -1,12 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="true">
+    <title>Tietovisa Etusivu</title>
+    <link rel="shortcut icon" type="" href="">
+    <link href="../css/viides-luokka.css" rel="stylesheet" type="text/css">
+    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
 </head>
+
 <body>
-    kakkaa
+    <header>
+        <div class="container">
+            <div class="row">
+                <a href="../index.html" class="logo"><img src="../images/bulb-logo.png"
+                    onmouseover="this.src='../images/bulb-light-logo.png'"
+                    onmouseout="this.src='../images/bulb-logo.png'" alt="Logo"></a>
+            <img class="logo-text" src="../images/tietovisa-logo.png" alt="Logo-Text">
+
+
+                <nav>
+                    <ul class="menu" id="menu">
+                        <li><a href="../index.html">Etusivu</a></li>
+                        <li><a href="../alasivu/tietoja.html">Tietoja</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+   
+    <!-- tietovisa tähän -->
+ <section class="slider">
+    <section class="quiz">
+        <h2>Luokka 5.</h2>
+        <div class="first">
+            <h4>1. Minkä alkuaineen kemiallinen merkintä on AU?</h4>
+            <label for="first">Rauta</label><input type="radio" name="first" id="first"><br>
+            <label for="second">Happi</label><input type="radio" name="first" id="second"><br>
+            <label for="third">Kulta</label><input type="radio" name="first" id="third"><br>
+            <label for="fourth">Kupari</label><input type="radio" name="first" id="fourth"><br>
+            <p id="answer1"></p>
+        </div><br>
+        <div class="second">
+            <h4>2. Täydennä lause: ""</h4>
+            <label for="first2"></label><input type="radio" name="second" id="first2"><br>
+            <label for="second2">Englanti</label><input type="radio" name="second" id="second2"><br>
+            <label for="third2">Viro</label><input type="radio" name="second" id="third2"><br>
+            <label for="fourth2">Ruotsi</label><input type="radio" name="second" id="fourth2"><br>
+            <p id="answer2"></p>
+        </div><br>
+        <div class="third">
+            <h4>3. Mikä seuraavista lauseista on yleispreesens muodossa?</h4>
+            <label for="first3">I singed a song.</label><input type="radio" name="third" id="first3"><br>
+            <label for="second3">I sanged a song.</label><input type="radio" name="third" id="second3"><br>
+            <label for="third3">I sing a song.</label><input type="radio" name="third" id="third3"><br>
+            <label for="fourth3">I sings a song.</label><input type="radio" name="third" id="fourth3"><br>
+            <p id="answer3"></p>
+        </div><br>
+        <div class="fourth">
+            <h4>4. Kuka on Antiikin Kreikan ylijumala?</h4>
+            <label for="first4">Poseidon</label><input type="radio" name="fourth" id="first4"><br>
+            <label for="second4">Apollo</label><input type="radio" name="fourth" id="second4"><br>
+            <label for="third4">Haades</label><input type="radio" name="fourth" id="third4"><br>
+            <label for="fourth4">Zeus</label><input type="radio" name="fourth" id="fourth4"><br>
+            <p id="answer4"></p>
+        </div><br>
+        <div class="fifth">
+            <h4>5. Montako kuukautta vuodessa on?</h4>
+            <label for="first5">12</label><input type="radio" name="fifth" id="first5"><br>
+            <label for="second5">10</label><input type="radio" name="fifth" id="second5"><br>
+            <label for="third5">14</label><input type="radio" name="fifth" id="third5"><br>
+            <label for="fourth5">6</label><input type="radio" name="fifth" id="fourth5"><br>
+            <p id="answer5"></p>
+        </div><br>
+
+        <div id="points"></div>
+        <button onclick="checkAnswers()" id="check">Tarkista</button>
+        <button onclick="window.location.reload();" id="reload" hidden>Yritä uudestaan</button>
+        
+    </section>
+</section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm12 text-center">
+                    <div class="copyright">
+                        <p style="text-decoration: none;">&copy;Ryhmä Kymppi 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../js/viides-luokka.js" async defer></script>
+    <script src="../js/main.js" async defer></script>
 </body>
-</html>
