@@ -26,7 +26,7 @@ function checkAnswers() {
       document.getElementById('answer1').style.color = 'red';
     }
     // tarkistetaan toisen kysymyksen vastaus
-    if (document.getElementById('fourth2').checked) {
+    if (document.getElementById('first2').checked) {
       document.getElementById('answer2').innerHTML = correctAns;
       document.getElementById('answer2').style.color = 'green';
       counter++;
