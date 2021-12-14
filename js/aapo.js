@@ -2,74 +2,53 @@
   * @author Aapo Salo
   *
 */
-function submitQuiz() {
-  console.log('submitted');
+let counter = 0;
 
+function checkAnswer(){
+    let vuosi1917 = document.getElementById('vuosi1917');
+    let sanna = document.getElementById('sanna');
+    let missä = document.getElementById('missä');
+    let rooma = document.getElementById('rooma');
+    let numero503 = document.getElementById('numero503')
 
-  function answerScore (qName) {
-      var radiosNo = document.getElementsByName(qName);
-
-      for (var i = 0, length = radiosNo.length; i < length; i++) {
-             if (radiosNo[i].checked) {
-      
-              var answerValue = Number(radiosNo[i].value);
-          }
-      }
-      
-      if (isNaN(answerValue)) {
-          answerValue = 0;
-      }
-      return answerValue;
-  }
-}
-
-var calcScore = (answerScore('q1') + answerScore('q2') + answerScore('q3') + answerScore('q4')+ answerScore('q5'));
-console.log("CalcScore: " + calcScore); 
-
-
-function correctAnswer (correctStringNo, qNumber) {
-    console.log("qNumber: " + qNumber);  
-    return ("The correct answer for question #" + qNumber + ": &nbsp;<strong>" +
-        (document.getElementById(correctStringNo).innerHTML) + "</strong>");
+    if (vuosi1917.checked === true){
+        counter++;
+        document.getElementById('questionCheck').innerHTML = "Oikea vastaus!";
+    }
+    else {
+        document.getElementById('questionCheck').innerHTML = "Väärä vastaus!";
     }
 
-    if (answerScore('q1') === 0) {
-      document.getElementById('correctAnswer1').innerHTML = correctAnswer('correctString1', 1);
-  }
-  if (answerScore('q2') === 0) {
-      document.getElementById('correctAnswer2').innerHTML = correctAnswer('correctString2', 2);
-  }
-  if (answerScore('q3') === 0) {
-      document.getElementById('correctAnswer3').innerHTML = correctAnswer('correctString3', 3);
-  }
-  if (answerScore('q4') === 0) {
-      document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString4', 4);
-  }
-  if (answerScore('q5') === 0) {
-      document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString5', 5);
+    if (sanna.checked === true){
+        counter++;
+        document.getElementById('questionCheck2').innerHTML = "Oikea vastaus!";
+    }
+    else {
+        document.getElementById('questionCheck2').innerHTML = "Väärä vastaus!";
     }
 
-  
-    var questionCountArray = document.getElementsByClassName('question');
-
-    var questionCounter = 0;
-    for (var i = 0, length = questionCountArray.length; i < length; i++) {
-        questionCounter++;
+    if (missä.checked === true){
+        counter++;
+        document.getElementById('questionCheck3').innerHTML = "Oikea vastaus!";
+    }
+    else {
+        document.getElementById('questionCheck3').innerHTML = "Väärä vastaus!";
     }
 
+    if (rooma.checked === true){
+        counter++;
+        document.getElementById('questionCheck4').innerHTML = "Oikea vastaus!";
+    }
+    else {
+        document.getElementById('questionCheck4').innerHTML = "Väärä vastaus!";
+    }
 
-    var showScore = "Your Score: " + calcScore +"/" + questionCounter;
-
-    if (calcScore === questionCounter) {
-        showScore = showScore + "&nbsp; <strong>Perfect Score!</strong>"
-    };
-    document.getElementById('userScore').innerHTML = showScore;
-
-
-$(document).ready(function() {
-
-$('#submitButton').click(function() {
-    $(this).addClass('hide');
-});
-
-});
+    if (numero503.checked === true){
+        counter++;
+        document.getElementById('questionCheck5').innerHTML = "Oikea vastaus!";
+    }
+    else {
+        document.getElementById('questionCheck5').innerHTML = "Väärä vastaus!";
+    }
+    document.getElementById('total').innerHTML = "Onnistuit saamaan"  + counter + " pistettä! " + "Maksimi pistemäärä on 5."
+}{}

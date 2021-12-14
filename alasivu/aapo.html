@@ -63,43 +63,47 @@
                 <h2>3.<span> Luokka</span></h2>
                 <p></p><br>
                 <div id="quiz">
-                <div id="results"></div>
-
-                
+                <script src="aapo.js"></script>
                     <div>
                         <h1>3. luokan Tietovisa. Valitse mielestäsi oikea vastaus!</h1>
                     </div>
-                    <div id="kys1">
+                    <div id="firstQuestion">
                         <h3>Minä vuonna Suomi itsenäistyi?</h3>
-                        <label>1917</label> <input type="radio" name="1" id="true"><br>
-                        <label>1927</label><input type="radio" name="1" id="false"><br>
-                        <label>1907</label><input type="radio" name="1" id="false">
+                        <label for="vuosi1917">Vuonna 1917</label><input type="radio" name="firstQ" id="vuosi1917"><br>
+                        <label for="vuosi1927">Vuonna 1927</label><input type="radio" name="firstQ" id="vuosi1927"><br>
+                        <label for ="vuosi1907">Vuonna 1907</label><input type="radio" name="firstQ" id="vuosi1907"><br>
+                        <div id="questionCheck"></div>
                     </div>
-                    <div id="kys2">
+                    <div id="secondQuestion">
                         <h3>Kuka on Suomen pääministeri?</h3>
-                        <label>Jussi Halla-Aho</label><input type="radio" name="2" id="false"><br>
-                        <label>Sanna Marin</label><input type="radio" name="2" id="true"><br>
-                        <label>Pekka Haavisto</label><input type="radio" name="2" id="false">
+                        <label for ="jussi">Jussi Halla-Aho</label><input type="radio" name="secondQ" id="jussi"><br>
+                        <label for ="sanna">Sanna Marin</label><input type="radio" name="secondQ" id="sanna"><br>
+                        <label for ="pekka">Pekka Haavisto</label><input type="radio" name="secondQ" id="pekka"><br>
+                        <div id="questionCheck2"></div>
                     </div>
-                    <div id="kys3">
+                    <div id="thirdQuestion">
                         <h3>Mitä tarkoittaa englanniksi "Where are you?"</h3>
-                        <label>Mikä olet?</label><input type="radio" name="3" id="false"><br>
-                        <label>Missä olet?</label><input type="radio" name="3" id="true"><br>
-                        <label>Miksi olet?</label><input type="radio" name="3" id="false">
+                        <label for ="mikä">Mikä olet?</label><input type="radio" name="thirdQ" id="mikä"><br>
+                        <label for ="missä">Missä olet?</label><input type="radio" name="thirdQ" id="missä"><br>
+                        <label for ="miksi">Miksi olet?</label><input type="radio" name="thirdQ" id="miksi"><br>
+                        <div id ="questionCheck3"></div>
                     </div>
-                    <div id="kys4">
+                    <div id="fourthQuestion">
                         <h3>Mikä on Italian pääkaupunki?</h3>
-                        <label>Oslo</label><input type="radio" name="4" id="false"><br>
-                        <label>Pariisi</label><input type="radio" name="4" id="false"><br>
-                        <label>Rooma</label><input type="radio" name="4" id="true">
+                        <label for ="oslo">Oslo</label><input type="radio" name="fourthQ" id="oslo"><br>
+                        <label for ="pariisi">Pariisi</label><input type="radio" name="fourthQ" id="pariisi"><br>
+                        <label for ="rooma">Rooma</label><input type="radio" name="fourthQ" id="rooma"><br>
+                        <div id ="questionCheck4"></div>
                     </div>
-                    <div id="kys5">
+                    <div id="fifthQuestion">
                         <h3>Paljonko on 234 + 269 = ?</h3>
-                        <label>500</label><input type="radio" name="x" id="false"><br>
-                        <label>503</label><input type="radio" name="x" id="true"><br>
-                        <label>497</label><input type="radio" name="x" id="false">
+                        <label for ="numero500">500</label><input type="radio" name="fifthQ" id="numero500"><br>
+                        <label for ="numero503">503</label><input type="radio" name="fifthQ" id="numero503"><br>
+                        <label for ="numero497">497</label><input type="radio" name="fifthQ" id="numero497"><br>
+                        <div id ="questionCheck5"></div>
                     </div>
-                    <button id="submit">Tarkista vastauksesi</button>
+                    <button onclick="checkAnswer()">Tarkista vastauksesi</button>
+                    <div id="total"></div>
                 </div>
             </li>
         </ul>
