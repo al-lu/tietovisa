@@ -441,6 +441,7 @@ ol li::before {
 }
 
 .sliderInfo table {
+    font-size: 1.3em;
     color: white;
 }
 
