@@ -1,4 +1,3 @@
-
 /**
   * @author Joona Karhu
   *
@@ -17,7 +16,7 @@ let wrongAns = 'Nyt ei mennyt ihan oikein :('
 function checkAnswers() {
   let counter = 0;
     // tarkistetaan ensimmäisen kysymyksen vastaus
-    if (document.getElementById('green').checked) {
+    if (document.getElementById('kulta').checked) {
       document.getElementById('answer1').innerHTML = correctAns;
       document.getElementById('answer1').style.color = 'green';
       counter++;
@@ -27,7 +26,7 @@ function checkAnswers() {
       document.getElementById('answer1').style.color = 'red';
     }
     // tarkistetaan toisen kysymyksen vastaus
-    if (document.getElementById('ruotsi').checked) {
+    if (document.getElementById('got').checked) {
       document.getElementById('answer2').innerHTML = correctAns;
       document.getElementById('answer2').style.color = 'green';
       counter++;
@@ -37,7 +36,7 @@ function checkAnswers() {
       document.getElementById('answer2').style.color = 'red';
     }
     // tarkistetaan kolmannen kysymyksen vastaus
-    if (document.getElementById('joutsen').checked) {
+    if (document.getElementById('sing').checked) {
       document.getElementById('answer3').innerHTML = correctAns;
       document.getElementById('answer3').style.color = 'green';
       counter++;
@@ -47,7 +46,7 @@ function checkAnswers() {
       document.getElementById('answer3').style.color = 'red';
     }
     // tarkistetaan neljännen kysymyksen vastaus
-    if (document.getElementById('helsinki').checked) {
+    if (document.getElementById('zeus').checked) {
       document.getElementById('answer4').innerHTML = correctAns;
       document.getElementById('answer4').style.color = 'green';
       counter++;
@@ -57,7 +56,7 @@ function checkAnswers() {
       document.getElementById('answer4').style.color = 'red';
     }
     // tarkistetaan viidennen kysymyksen vastaus
-    if (document.getElementById('kaksitoista').checked) {
+    if (document.getElementById('comma').checked) {
       document.getElementById('answer5').innerHTML = correctAns;
       document.getElementById('answer5').style.color = 'green';
       counter++

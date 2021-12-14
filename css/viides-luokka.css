@@ -1,24 +1,31 @@
 /*
-Authors :   Toni Leinonen
+
+Authors :   Joona Karhu
+
 Contents:
+
 1.  Game Site Styles
+
 Main Colors :   #6EC000 GREEN
             :   #e1e1e1 White
             :   #C4CB11 Hero YELLOW
             :   #818181 Sub-heading text Light Brown
             :   #f7f7f7 Game intro BACKGROUND WHITE
+
 */
-*,html,body {
+
+*,html,body
+{
     margin: 0;
     padding: 0;
 }
 
-body {
+body
+{
     overflow-x: hidden;
 }
 
 
-/****************************  Wanted to test styling browser scrollbar  ********************************************/
 
 /* width */
 ::-webkit-scrollbar {
@@ -43,9 +50,6 @@ background: #5da203
 }
 
     
-/*************************************************************************************************/
-/*----------------------- 2.  Nav AND Header Styles  --------------------------------------------*/
-/*************************************************************************************************/
 
 header
 {
@@ -56,13 +60,6 @@ header
     width: 100%;
 }
 
-/****************************  Used for nav button animation  ********************************************/
-/* .secondary 
-{
-    background-color: #162252;
-    box-shadow: 0px 0px 17px 0px;
-    transition: all 0.5s ease-in;
-} */
 
 ul
 {
@@ -127,66 +124,42 @@ header nav ul li a:hover,header nav ul li a:focus
     display: none;
 }
 
-#quiz{
-    background-color: rgba(196, 203, 17, 0.65);
-    width: 50vw;
-    border: 2px #6EC000 solid;
-    text-align: center;
-    margin-left: 25vw;
-    background-image: url(../images/tonin-peli-kuvat/hippo.png);
-    background-repeat: no-repeat;
-    background-position:right bottom;
-    background-size: 10vw;
-}
-
-
-#quiz img {
-    width: 25vw;
-}
-
 .slider{
-    background-image: url(../images/tonin-peli-kuvat/space-background.png);
+    background-image: url(../images/viidesluokka-background.png);
     background-size: cover;
-    padding-top: 20px;
-    padding-bottom: 10px;
     
 }
 
-#quiz h2{
+.quiz {
+    display: block;
+    width: 40vw;
+    margin-left: 30vw;
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(11, 243, 166, 0.767);
+
+}
+
+[id*='answer' i] {
     font-weight: bold;
+}
+
+#points {
+    padding-bottom: 2px;
+    font-size: 1.2em;
 }
 
 label {
-    margin: 4px;
-}
-#total {
-    margin: 10px;
-    font-weight: bolder;
+    display: inline-block;
+    padding-right: 5px;
 }
 
-[id*="questionCheck" i] {
-    font-weight: bold;
+.check {
+    margin-bottom: 15px;
 }
 
-[id*="Question"] {
-    border-bottom: 1px black solid;
-}
-/* label:hover {
-    font-weight: bold;
-} */
 
-#fifthQuestion{
-    border-bottom: none;
-}
-
-button {
-    background-color:#C4CB11;
-    color: black;
-    border: 2px solid #6EC000;
-    border-radius: 10px;
-    padding: 5px 15px;
-    margin-bottom: 10px;
-}
 footer
 {
     background-color: #6EC000;
