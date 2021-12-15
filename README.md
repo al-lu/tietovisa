@@ -17,7 +17,7 @@ Joona 1. Luokka,
 
 Aleksi 6. Luokka,
 
-Sami,
+Sami 4. Luokka,
 
 Toni 2. Luokka
 
