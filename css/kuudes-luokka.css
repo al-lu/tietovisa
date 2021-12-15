@@ -17,7 +17,7 @@ Main Colors :   #6EC000 GREEN
 
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Gotham Rounded;
+    /* font-family: Gotham Rounded; */
 }
 
 /* Disable Scrolling*/
