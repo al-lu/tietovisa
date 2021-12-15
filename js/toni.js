@@ -8,7 +8,7 @@
 function checkAnswer(){
   let counter = 0;
   let english = document.getElementById('english');
-  let lappi = document.getElementById('lappi');
+  let kolmasTavu = document.getElementById('kolmasTavu');
   let hirvi = document.getElementById('hirvi');
   let koivu = document.getElementById('koivu');
   let vuodenaika = document.getElementById('num4');
@@ -24,7 +24,7 @@ function checkAnswer(){
     document.getElementById('questionCheck').style.color = "red"
   }
   // Toisen kysymyksen if-lauseke
-  if(lappi.checked) {
+  if(kolmasTavu.checked) {
     counter++;
     document.getElementById('questionCheck2').innerHTML = "Oikein!";
     document.getElementById('questionCheck2').style.color = "green"
