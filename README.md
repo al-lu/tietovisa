@@ -25,4 +25,4 @@ Whole team: Frontpage, info page,  5th Grade.
 
 INTRODUCTION
 ------------
-Website for grade schoolers (1th to 6th grade). Multiple choise questions to answer when bored.
+Website for grade schoolers (1st to 6th grade). Multiple choise questions to answer when bored.
