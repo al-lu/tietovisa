@@ -74,7 +74,34 @@ function showQuestion(question) {
   question.answers.forEach(answer => {
     const button = document.createElement('button')
     button.innerText = answer.text
-    console.log(answer.text)
+    console.log("Vaihtoehto" + " " + answer.text)
+    // if (hasInt(answer.text)) {
+    //   button.innerText = answer.replace(/(\d+)/g, '<sub>$1</sub>');
+    // }
+
+    // Fileter numbers for chemical formulas
+
+
+    // if (j != "") {
+    // var j = answer.text.split("").filter(Number)
+    // console.log(j)
+    // var k = answer.text.replace(/(\d+)/g, '<sub>$1</sub>');
+    // console.log("Vaihtoehto SUB" + " " + k)
+    // for (let i = 0; i < j.length; i++) {
+    //   // j[i].replace(/(\d+)/g, "<sub>$1</sub>");
+    //   j.classList.add('sub')
+    //   console.log("taa loyty" + j[i])
+    // }
+    // }
+    // console.log(j)
+    // console.log("j :" + j)
+
+    // for (let i = 0; i < answer.text.length; i++) {
+    //   if (isInteger(answer.text[i])) {
+    //     answer.text[i].sub()
+    //   }
+    // }
+
     button.classList.add('btn')
     if (answer.correct) {
       button.dataset.correct = answer.correct
@@ -83,6 +110,25 @@ function showQuestion(question) {
     answerButtonsElement.appendChild(button)
   })
 }
+
+// function hasInt(me) {
+//   let i = 1, a = me.split(""), b = "", c = "";
+//   a.forEach(function (e) {
+//     if (!isNaN(e)) {
+//       console.log(`CONTAIN NUMBER «${e}» AT POSITION ${a.indexOf(e)} => TOTAL COUNT ${i}`)
+//       c += e
+//       i++
+//     } else { b += e }
+//   })
+//   console.log(`STRING IS «${b}», NUMBER IS «${c}»`)
+//   if (i === 0) {
+//     return false
+//     // return b
+//   } else {
+//     return true
+//     // return +c
+//   }
+// }
 
 
 function resetState() {
@@ -188,13 +234,33 @@ const questions = [
     ]
   },
   {
-    question: 'Sokerin kemiallinen kaava on...',
+    question: 'Raudan kemiallinen kaava on...',
     questionId: "Kysymys 3",
     answers: [
       { text: 'Fe', correct: false },
-      { text: 'H', correct: true },
+      { text: 'Ni', correct: true },
       { text: 'Mg', correct: false },
-      { text: 'Au', correct: false }
+      { text: 'Xe', correct: false }
+    ]
+  },
+  {
+    question: 'Mikä hiukkasista on varaukseltaan positiivinen?',
+    questionId: "Kysymys 3",
+    answers: [
+      { text: 'Protoni', correct: false },
+      { text: 'Elektroni', correct: true },
+      { text: 'Neutroni', correct: false },
+      { text: 'Atomi', correct: false }
+    ]
+  },
+  {
+    question: 'Endoterminen reaktio on...',
+    questionId: "Kysymys 3",
+    answers: [
+      { text: 'lämpöä luovuttava reaktio.', correct: false },
+      { text: 'lämpöä sitova reaktio.', correct: true },
+      { text: 'palamista aiheuttava reaktio.', correct: false },
+      { text: 'ruostumista aiheuttava reaktio', correct: false }
     ]
   },
 ]
