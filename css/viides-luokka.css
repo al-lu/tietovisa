@@ -124,6 +124,18 @@ header nav ul li a:hover,header nav ul li a:focus
     display: none;
 }
 
+bar 
+{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    background-size: cover;
+}
+
 .slider{
     background-image: url(../images/viidesluokka-background.png);
     background-size: cover;
@@ -170,4 +182,68 @@ footer
     -ms-background-size: cover;
     padding: 25px 0;
     
+}
+@media screen and (max-width: 1010px){
+
+    header{
+        background-color: #6EC000;
+        min-height: 27.4%;
+        padding-top: 84px;
+    }
+  
+
+    .menu {
+        position: fixed;
+        left: -100%;
+        top: 12rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    .menu-link{
+        color: black;
+    }
+
+    .menu-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        padding-right: 15px;
+        padding-top: 30px;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@media screen and (max-width: 700px){
+    .btn-grid {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 10px;
+        margin: 20px 0;
+        }
+        
 }
