@@ -2,7 +2,7 @@ CONTENTS OF THIS FILE
 ---------------------
  * Demo
  * Introduction
- * Makers
+ * Contributors
 
 DEMO
 ------------
@@ -11,16 +11,18 @@ DEMO
 CONTRIBUTORS
 ------------
 
-Aapo, 3. Luokka,
+Aapo, 3rd Grade,
 
-Joona 1. Luokka,
+Joona 1st Grade,
 
-Aleksi 6. Luokka,
+Aleksi 6th Grade,
 
-Sami 4. Luokka,
+Sami 4th Grade,
 
-Toni 2. Luokka
+Toni 2nd Grade
+
+Whole team: Frontpage, info page,  5th Grade.
 
 INTRODUCTION
 ------------
-Website for grade schoolers (1st to 6th grade). Multiple choise questions to answer when bored.
+Website for grade schoolers (1th to 6th grade). Multiple choise questions to answer when bored.
