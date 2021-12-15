@@ -124,7 +124,7 @@ header nav ul li a:hover,header nav ul li a:focus
     display: none;
 }
 
-bar 
+.bar 
 {
     display: block;
     width: 25px;
