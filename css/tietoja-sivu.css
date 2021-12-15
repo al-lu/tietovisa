@@ -165,9 +165,11 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .info {
     background-color: rgba(169, 203, 17, 0.87);
-    width: 50vw;
+    width: 35vw;
     border: 2px #c08300 solid;
-    margin-left: 25vw;
+    
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
     background-position:right bottom;
     background-size: 10vw;
@@ -181,6 +183,10 @@ h2 {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+}
+
+.info table td, .info table th {
+    padding: 3px;
 }
 
 
