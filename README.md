@@ -6,7 +6,7 @@ CONTENTS OF THIS FILE
 
 DEMO
 ------------
-![Test Demo]()
+![Test Demo](https://github.com/al-lu/tietovisa/blob/main/demo/demo.gif)
 
 CREATORS
 ------------
