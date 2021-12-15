@@ -6,7 +6,7 @@
     <meta name="HandheldFriendly" content="true">
     <title>2. Luokka</title>
     <link rel="shortcut icon" type="" href="">
-    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+    <!-- <link href="../css/responsive.css" rel="stylesheet" type="text/css"> -->
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -26,16 +26,20 @@
         <div class="container">
             <div class="row">
                 <a href="../index.html" class="logo"><img src="../images/bulb-logo.png"
-                    onmouseover="this.src='../images/bulb-light-logo.png'"
-                    onmouseout="this.src='../images/bulb-logo.png'" alt="Logo"></a>
+                        onmouseover="this.src='../images/bulb-light-logo.png'"
+                        onmouseout="this.src='../images/bulb-logo.png'" alt="Logo"></a>
                 <img class="logo-text" src="../images/tietovisa-logo.png" alt="Logo-Text">
 
                 <nav>
                     <ul class="menu" id="menu">
-                        <li><a href="../index.html">Etusivu</a></li>
-                        <li><a href="../alasivu/tietoja.html">Tietoja</a></li>
-
+                        <li class="menu-item"><a class="menu-link" href="index.html">Etusivu</a></li>
+                        <li class="menu-item"><a class="menu-link" href="alasivu/tietoja.html">Tietoja</a></li>
                     </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -58,10 +62,14 @@
                     </div>
                     <div id="secondQuestion">
                         <h3>Mikä seuraavista on tavutettu oikein?</h3>
-                        <label for="ekaTavu">Tav-oi-te-tta-vis-sa</label><input type="radio" name="secondQ" id="ekaTavu"> <br>
-                        <label for="tokaTavu">Ta-vo-itet-ta-vi-ss-a</label><input type="radio" name="secondQ" id="tokaTavu"> <br>
-                        <label for="kolmasTavu">Ta-voi-tet-ta-vis-sa</label><input type="radio" name="secondQ" id="kolmasTavu"> <br>
-                        <label for="nelosTavu">Ta-voit-te-tta-vi-ssa</label><input type="radio" name="secondQ" id="nelosTavu"> <br>
+                        <label for="ekaTavu">Tav-oi-te-tta-vis-sa</label><input type="radio" name="secondQ"
+                            id="ekaTavu"> <br>
+                        <label for="tokaTavu">Ta-vo-itet-ta-vi-ss-a</label><input type="radio" name="secondQ"
+                            id="tokaTavu"> <br>
+                        <label for="kolmasTavu">Ta-voi-tet-ta-vis-sa</label><input type="radio" name="secondQ"
+                            id="kolmasTavu"> <br>
+                        <label for="nelosTavu">Ta-voit-te-tta-vi-ssa</label><input type="radio" name="secondQ"
+                            id="nelosTavu"> <br>
                         <div id="questionCheck2"></div>
                     </div>
                     <div id="thirdQuestion">
