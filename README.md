@@ -1,8 +1,8 @@
 CONTENTS OF THIS FILE
 ---------------------
  * Demo
- * Introduction
  * Contributors
+ * Introduction
 
 DEMO
 ------------
