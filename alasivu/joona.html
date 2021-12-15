@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fi">
 
@@ -21,7 +20,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
+
 </head>
 
 <body>
@@ -29,15 +28,15 @@
         <div class="container">
             <div class="row">
                 <a href="../index.html" class="logo"><img src="../images/bulb-logo.png"
-                    onmouseover="this.src='../images/bulb-light-logo.png'"
-                    onmouseout="this.src='../images/bulb-logo.png'" alt="Logo"></a>
-            <img class="logo-text" src="../images/tietovisa-logo.png" alt="Logo-Text">
+                        onmouseover="this.src='../images/bulb-light-logo.png'"
+                        onmouseout="this.src='../images/bulb-logo.png'" alt="Logo"></a>
+                <img class="logo-text" src="../images/tietovisa-logo.png" alt="Logo-Text">
 
 
                 <nav>
                     <ul class="menu" id="menu">
-                        <li><a href="../index.html">Etusivu</a></li>
-                        <li><a href="../alasivu/tietoja.html">Tietoja</a></li>
+                        <li class="menu-item"><a class="menu-link" href="../index.html">Etusivu</a></li>
+                        <li class="menu-item"><a class="menu-link" href="alasivu/tietoja.html">Tietoja</a></li>
                     </ul>
                     <div class="hamburger">
                         <span class="bar"></span>
@@ -48,58 +47,58 @@
             </div>
         </div>
     </header>
-   
-    <!-- tietovisa tähän -->
- <section class="slider">
-    <section class="quiz">
-        <h2>Luokka 1.</h2>
-        <div class="first">
-            <h4>1. Mikä näistä sanoista on vihreä englanniksi?</h4>
-            <label for="yellow">Yellow</label><input type="radio" name="first" id="yellow"><br>
-            <label for="blue">Blue</label><input type="radio" name="first" id="blue"><br>
-            <label for="green">Green</label><input type="radio" name="first" id="green"><br>
-            <label for="red">Red</label><input type="radio" name="first" id="red"><br>
-            <p id="answer1"></p>
-        </div><br>
-        <div class="second">
-            <h4>2. Mikä on Suomen virallinen toinen kieli?</h4>
-            <label for="venaja">Venäjä</label><input type="radio" name="second" id="venaja"><br>
-            <label for="englanti">Englanti</label><input type="radio" name="second" id="englanti"><br>
-            <label for="viro">Viro</label><input type="radio" name="second" id="viro"><br>
-            <label for="ruotsi">Ruotsi</label><input type="radio" name="second" id="ruotsi"><br>
-            <p id="answer2"></p>
-        </div><br>
-        <div class="third">
-            <h4>3. Mikä on Suomen kansallislintu?</h4>
-            <label for="kotka">Kotka</label><input type="radio" name="third" id="kotka"><br>
-            <label for="joutsen">Joutsen</label><input type="radio" name="third" id="joutsen"><br>
-            <label for="peippo">Peippo</label><input type="radio" name="third" id="peippo"><br>
-            <label for="varis">Varis</label><input type="radio" name="third" id="varis"><br>
-            <p id="answer3"></p>
-        </div><br>
-        <div class="fourth">
-            <h4>4. Mikä on Suomen pääkaupunki?</h4>
-            <label for="oulu">Oulu</label><input type="radio" name="fourth" id="oulu"><br>
-            <label for="tampere">Tampere</label><input type="radio" name="fourth" id="tampere"><br>
-            <label for="turku">Turku</label><input type="radio" name="fourth" id="turku"><br>
-            <label for="helsinki">Helsinki</label><input type="radio" name="fourth" id="helsinki"><br>
-            <p id="answer4"></p>
-        </div><br>
-        <div class="fifth">
-            <h4>5. Montako kuukautta vuodessa on?</h4>
-            <label for="kaksitoista">12</label><input type="radio" name="fifth" id="kaksitoista"><br>
-            <label for="kymmenen">10</label><input type="radio" name="fifth" id="kymmenen"><br>
-            <label for="neljatoista">14</label><input type="radio" name="fifth" id="neljatoista"><br>
-            <label for="kuusi">6</label><input type="radio" name="fifth" id="kuusi"><br>
-            <p id="answer5"></p>
-        </div><br>
 
-        <div id="points"></div>
-        <button onclick="checkAnswers()" id="check">Tarkista</button>
-        <button onclick="window.location.reload();" id="reload" hidden>Yritä uudestaan</button>
-        
+    <!-- tietovisa tähän -->
+    <section class="slider">
+        <section class="quiz">
+            <h2>Luokka 1.</h2>
+            <div class="first">
+                <h4>1. Mikä näistä sanoista on vihreä englanniksi?</h4>
+                <label for="yellow">Yellow</label><input type="radio" name="first" id="yellow"><br>
+                <label for="blue">Blue</label><input type="radio" name="first" id="blue"><br>
+                <label for="green">Green</label><input type="radio" name="first" id="green"><br>
+                <label for="red">Red</label><input type="radio" name="first" id="red"><br>
+                <p id="answer1"></p>
+            </div><br>
+            <div class="second">
+                <h4>2. Mikä on Suomen virallinen toinen kieli?</h4>
+                <label for="venaja">Venäjä</label><input type="radio" name="second" id="venaja"><br>
+                <label for="englanti">Englanti</label><input type="radio" name="second" id="englanti"><br>
+                <label for="viro">Viro</label><input type="radio" name="second" id="viro"><br>
+                <label for="ruotsi">Ruotsi</label><input type="radio" name="second" id="ruotsi"><br>
+                <p id="answer2"></p>
+            </div><br>
+            <div class="third">
+                <h4>3. Mikä on Suomen kansallislintu?</h4>
+                <label for="kotka">Kotka</label><input type="radio" name="third" id="kotka"><br>
+                <label for="joutsen">Joutsen</label><input type="radio" name="third" id="joutsen"><br>
+                <label for="peippo">Peippo</label><input type="radio" name="third" id="peippo"><br>
+                <label for="varis">Varis</label><input type="radio" name="third" id="varis"><br>
+                <p id="answer3"></p>
+            </div><br>
+            <div class="fourth">
+                <h4>4. Mikä on Suomen pääkaupunki?</h4>
+                <label for="oulu">Oulu</label><input type="radio" name="fourth" id="oulu"><br>
+                <label for="tampere">Tampere</label><input type="radio" name="fourth" id="tampere"><br>
+                <label for="turku">Turku</label><input type="radio" name="fourth" id="turku"><br>
+                <label for="helsinki">Helsinki</label><input type="radio" name="fourth" id="helsinki"><br>
+                <p id="answer4"></p>
+            </div><br>
+            <div class="fifth">
+                <h4>5. Montako kuukautta vuodessa on?</h4>
+                <label for="kaksitoista">12</label><input type="radio" name="fifth" id="kaksitoista"><br>
+                <label for="kymmenen">10</label><input type="radio" name="fifth" id="kymmenen"><br>
+                <label for="neljatoista">14</label><input type="radio" name="fifth" id="neljatoista"><br>
+                <label for="kuusi">6</label><input type="radio" name="fifth" id="kuusi"><br>
+                <p id="answer5"></p>
+            </div><br>
+
+            <div id="points"></div>
+            <button onclick="checkAnswers()" id="check">Tarkista</button>
+            <button onclick="window.location.reload();" id="reload" hidden>Yritä uudestaan</button>
+
+        </section>
     </section>
-</section>
     <footer>
         <div class="container">
             <div class="row">
@@ -111,8 +110,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="../js/joona.js" async defer></script>
     <script src="../js/main.js" async defer></script>
 </body>
-
