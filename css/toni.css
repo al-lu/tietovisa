@@ -147,7 +147,7 @@ header nav ul li a:hover,header nav ul li a:focus
 .slider{
     background-image: url(../images/tonin-peli-kuvat/space-background.png);
     background-size: cover;
-    padding-top: 20px;
+    padding-top: 14vh;
     padding-bottom: 10px;
     
 }
@@ -215,8 +215,8 @@ footer
 
     header{
         background-color: #6EC000;
-        min-height: 27.4%;
-        padding-top: 84px;
+        min-height: 24vh;
+        padding-top: 80px;
     }
   
 
