@@ -12,7 +12,7 @@
 
     <link rel="shortcut icon" type="favicon" href="images/bulb-logo.png">
 
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    
     <link href="../css/responsive.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../css/sami.css">
 
@@ -64,58 +64,53 @@
                 <p></p><br>
                 <div id="quiz">
                     <div>
-                        <h1>kys4lk</h1>
+                        <h1>4. Luokka</h1>
                     </div>
                     <div id="kys1">
-                        <h3>millä eläimellä on 4 jalkaa?</h3>
-                        <label>hirvi</label> <input type="radio" name="1" id="true">
-                        <label>kenguru</label><input type="radio" name="1" id="false">
-                        <label>gorilla</label><input type="radio" name="1" id="false">
+                        <h2>1) Montako valtiota kuuluu Euroopan unioniin?</h2>
+                        <label for="true1">27</label> <input type="radio" name="1" id="true1"> 
+                        <label for="false1">51</label><input type="radio" name="1" id="false1"> 
+                        <label for="false1-2">32</label><input type="radio" name="1" id="false1-2">
+                        <h3 id="answer1"></h3>
                     </div>
                     <div id="kys2">
-                        <h3>mikä näistä on ruokaa?</h3>
-                        <label>appelsiini</label><input type="radio" name="2" id="false">
-                        <label>saab</label><input type="radio" name="2" id="true">
-                        <label>rintamamiestalo</label><input type="radio" name="2" id="false">
+                        <h2>2) Mitä demokratia tarkoittaa?</h2>
+                        <label for="false2">Valtiota johtaa yksi henkilö</label><input type="radio" name="2" id="false2">
+                        <label for="true2">Kansa päättää sen, ketkä päättävät valition asioista</label><input type="radio" name="2" id="true2"> 
+                        <label for="false2-2">Kaikki kansalaiset ovat saman arvoisia</label><input type="radio" name="2" id="false2-2">
+                        <h3 id="answer2"></h3>
                     </div>
                     <div id="kys3">
-                        <h3>mikä näistä ei ole ruokaa?</h3>
-                        <label>hernekeitto</label><input type="radio" name="3" id="false">
-                        <label>viina</label><input type="radio" name="3" id="true">
-                        <label>fotosynteesi</label><input type="radio" name="3" id="false">
+                        <h2>3) Mikä näistä on Portugalin pääkaupunki?</h2>
+                        <label for="false3">Madrid</label><input type="radio" name="3" id="false3"> 
+                        <label for="true3">Lissabon</label><input type="radio" name="3" id="true3"> 
+                        <label for="false3-2">Lagos</label><input type="radio" name="3" id="false3-2">
+                        <h3 id="answer3"></h3>
                     </div>
                     <div id="kys4">
-                        <h3>Minkä alkuaineen kemiallinen merkintä on Au?</h3>
-                        <label>Rauta</label><input type="radio" name="4" id="false">
-                        <label>Happi</label><input type="radio" name="4" id="false">
-                        <label>Kulta</label><input type="radio" name="4" id="true">
+                        <h2>4) Minkä maan asukasluku on näistä suurin?</h2>
+                        <label for="false4">Ranska</label><input type="radio" name="4" id="false4">
+                        <label for="false4-2">Italia</label><input type="radio" name="4" id="false4-2"> 
+                        <label for="true4">Saksa</label><input type="radio" name="4" id="true4">
+                        <h3 id="answer4"></h3>
                     </div>
                     <div id="kys5">
-                        <h3>mikä näistä on karsinogeeni</h3>
-                        <label>diesel</label><input type="radio" name="x" id="false">
-                        <label>sätkä</label><input type="radio" name="x" id="true">
-                        <label>rynkky</label><input type="radio" name="x" id="false">
+                        <h2>5) Mikä on Suomen pohjoisin kaupunki?</h2>
+                        <label for="false5">Rovaniemi</label><input type="radio" name="5" id="false5"> 
+                        <label for="true5">Kemijärvi</label><input type="radio" name="5" id="true5"> 
+                        <label for="flase5-2">Sodankylä</label><input type="radio" name="5" id="false5-2">
+                        <h3 id="answer5"></h3>
                     </div>
-                    <button>tarkista</button>
+                    <button onclick="checkAnswer()" id="button">Tarkista</button>
+                    <div id="points"></div>
+                    <button onclick="window.location.reload()" id="refresh" hidden>Yritä uudelleen</button>
                 </div>
+                
             </li>
         </ul>
     </section>
 
-    <!--Hero Start-->
-
-    <!--Hero End-->
-
-    <!--Games Start-->
-
-    <!--Games End-->
-
-    <!-- Instructions Start -->
-
-    <!-- Instructions End -->
-
     <!-- Footer Start -->
-    <!-- Add other learning resourses here!!!-->
 
     <footer>
         <div class="container">
@@ -129,9 +124,8 @@
         </div>
     </footer>
     <!-- Footer End-->
-    <script src="js/main.js" async defer></script>
+    <script src="../js/main.js" async defer></script>
+    <script src="../js/sami.js"></script>
 </body>
-
->>>>>>> main
 
 </html>
