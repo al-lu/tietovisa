@@ -147,7 +147,7 @@ header nav ul li a:hover,header nav ul li a:focus
 .slider{
     background-image: url(../images/tonin-peli-kuvat/space-background.png);
     background-size: cover;
-    padding-top: 20px;
+    padding-top: 14vh;
     padding-bottom: 10px;
     
 }
