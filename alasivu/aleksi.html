@@ -2,17 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../css/aleksi.css" rel="stylesheet">
+
     <title>Quiz App</title>
+
+    <link href="../css/aleksi.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href="../css/responsive.css" rel="stylesheet" type="text/css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
     <!-- FONTAWESOME CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
@@ -21,6 +22,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -49,10 +51,19 @@
     <!--Nav Start-->
 
     <!-- WRITE GAME HERE!!!-->
+
     <div class="secondary-body">
+        <div class="image-div">
+            <!-- <img src="/images/hexanol.png" style="width: 20%; margin-top:-700px"> -->
+        </div>
         <div class="container-quiz">
+            <h1 id="question-id"></h1>
+            <span id="correct-answers"></span>
+            <span id="icon-right" class="hide"><img src="/images/check-solid.svg"></span>
+            <span id="wrong-answers"></span>
+            <span id="icon-wrong" class="hide"><img src="/images/times-solid.svg"></span>
             <div id="question-container" class="hide">
-                <div id="question">Question</div>
+                <div id="question" class="question-font">Question</div>
                 <div id="answer-buttons" class="btn-grid">
                     <button class="btn">Answer 1</button>
                     <button class="btn">Answer 2</button>
@@ -61,10 +72,11 @@
                 </div>
             </div>
             <div class="controls">
-                <button id="start-btn" class="start-btn btn">Start</button>
-                <button id="next-btn" class="next-btn btn hide">Next</button>
+                <button id="start-btn" class="start-btn btn">Aloita</button>
+                <button id="next-btn" class="next-btn btn hide">Seuraava</button>
             </div>
         </div>
+
     </div>
 
     <!-- Footer Start -->
