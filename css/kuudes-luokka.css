@@ -17,7 +17,7 @@ Main Colors :   #6EC000 GREEN
 
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Gotham Rounded;
+    /* font-family: Gotham Rounded; */
 }
 
 /* Disable Scrolling*/
@@ -47,14 +47,14 @@ background-attachment: fixed;
 background-position: center;
 }
 
-.image-div {
-    background-image: url("/images/hexanol.png");
+/* .image-div {
+    background-image: url("../images/hexanol.png");
     background-repeat: no-repeat;
     background-attachment: fixed;   
     background-position: center;
     z-index: 1002;
     margin-top: -700px;
-}
+} */
 
 .question {
     color: black;
