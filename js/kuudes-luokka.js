@@ -228,7 +228,7 @@ const questions = [
     questionId: "Kysymys 2.",
     answers: [
       { text: 'atomi', correct: false },
-      { text: 'multiatomi', correct: false },
+      { text: 'hiukkanen', correct: false },
       { text: 'kemiallinen yhdiste', correct: false },
       { text: 'molekyyli', correct: true }
     ]
