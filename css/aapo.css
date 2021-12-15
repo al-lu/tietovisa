@@ -73,6 +73,65 @@ button:hover{
     background-size: 75vw;
     }
 
+    .hamburger {
+        display: none;
+   }
+   @media screen and (max-width: 1010px){
+
+    header{
+        background-color: #6EC000;
+        min-height: 27.4%;
+        padding-top: 84px;
+    }
+  
+
+    .menu {
+        position: fixed;
+        left: -100%;
+        top: 12rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    .menu-link{
+        color: black;
+    }
+
+    .menu-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        padding-right: 15px;
+        padding-top: 30px;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+
   
    
 
