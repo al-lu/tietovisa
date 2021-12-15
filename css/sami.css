@@ -14,25 +14,210 @@ Main Colors :   #6EC000 GREEN
 
 */
 
-
-body {
-
-    background-color: aquamarine;
-
+*,html,body
+{
+    margin: 0;
+    padding: 0;
 }
 
-.slider {
-    background-image: url(../images/education-background.png);
+body
+{
+    overflow-x: hidden;
     
 }
+
+
+/****************************  Wanted to test styling browser scrollbar  ********************************************/
+
+/* width */
+::-webkit-scrollbar {
+width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px #6EC000;
+border-radius: 10px;
+}
+    
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #C4CB11;; 
+border-radius: 10px;
+}
+    
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #5da203 
+}
+
+    
+/*************************************************************************************************/
+/*----------------------- 2.  Nav AND Header Styles  --------------------------------------------*/
+/*************************************************************************************************/
+
+header
+{
+    height: 90px;
+    line-height: 90px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+/****************************  Used for nav button animation  ********************************************/
+/* .secondary 
+{
+    background-color: #162252;
+    box-shadow: 0px 0px 17px 0px;
+    transition: all 0.5s ease-in;
+} */
+
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+header nav
+{
+    float: right;
+    
+}
+
+header {
+    background-color: #6EC000;
+}
+
+/****************************  Logo Styles and Animation  ********************************************/
+.logo img
+{   
+    max-width: 75px;
+}
+
+.logo-text
+{   
+    max-width: 275px;
+}
+.logo img:hover
+{ 
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;   
+}
+
+@keyframes pulse 
+{
+0% { transform: scale(1); }
+50% { transform: scale(1.1);}
+100% { transform: scale(1); }
+}
+
+header nav ul li a
+{
+    padding-right: 30px;
+    font-weight: bold;
+    color: #e1e1e1;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover,header nav ul li a:focus
+{
+    text-decoration: none;
+    color: yellow;
+}
+
+
+.hamburger 
+{
+    display: none;
+}
+
+
+.slider {
+    background-image: url(../images/map.png);
+    background-size: cover;
+    padding-bottom: 25px
+}
+
 #quiz {
     display: block;
     width: 40vw;
     text-align: center;
-    background-color: yellowgreen;
+    background-color: rgba(183, 236, 76, 0.8);
     margin-left: 30vw;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 15px;
     padding-bottom: 100px;
+    margin-top: 50px;
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 20px;
 
+}
+#points {
+    font-size: 2em;
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    border: 2px solid #6EC000;
+    border-radius: 10px;
+    color: #6EC000;
+    background-color: #e1e1e1;
+    text-shadow: rgb(56, 56, 56) 0px 0px 1px;
+}
+#refresh {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    border: 2px solid #6EC000;
+    border-radius: 10px;
+    color: #6EC000;
+    background-color: #e1e1e1;
+    text-shadow: rgb(56, 56, 56) 0px 0px 1px;
+}
+
+[id*="answer" i] {
+    font-size: 1.5em;
+}
+
+[id*="kys" i] {
+    text-align: left;
+}
+
+footer {
+    background-color: #6EC000;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    padding: 25px
+}
+
+label {
+    margin: 20px;
+    text-shadow: #e1e1e1 0px 0px 5px;
+}
+
+#quiz h2 {
+    color: #e1e1e1;
+    font-size: 2em;
+    text-shadow: rgb(56, 56, 56) 0px 0px 5px;
+
+}
+
+#quiz h1 {
+    font-weight: bold;
+    color: #e1e1e1;
+    text-shadow: rgb(56, 56, 56) 0px 0px 5px;
+}
+#quiz #points  {
+    text-shadow: rgb(56, 56, 56) 0px 0px 5px;
+    color: #e1e1e1;
 }
