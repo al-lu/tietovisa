@@ -1,6 +1,7 @@
 CONTENTS OF THIS FILE
 ---------------------
  * Demo
+ * TODO
  * Contributors
  * Introduction
 
@@ -8,18 +9,28 @@ DEMO
 ------------
 ![Test Demo](https://github.com/al-lu/tietovisa/blob/main/demo/demo.gif)
 
+DEMO
+------------
+Code commenting,
+Final overview,
+Publishing
+
+
 CONTRIBUTORS
 ------------
 
+Joona, 1st Grade,
+
+Toni, 2nd Grade,
+
 Aapo, 3rd Grade,
-
-Joona 1st Grade,
-
-Aleksi 6th Grade,
 
 Sami 4th Grade,
 
-Toni 2nd Grade
+Team, 5th Grade,
+
+Aleksi 6th Grade
+
 
 Whole team: Frontpage, info page,  5th Grade.
 
