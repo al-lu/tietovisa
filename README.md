@@ -12,6 +12,7 @@ DEMO
 TODO
 ------------
 Code commenting,
+Fix footer issues = No matter what screen size user has always lock it to the bottom of the page,
 Final overview,
 Publishing
 
@@ -32,7 +33,7 @@ Team, 5th Grade,
 Aleksi 6th Grade
 
 
-Whole team: Frontpage, info page,  5th Grade.
+Whole team: Frontpage, info page,  5th Grade
 
 INTRODUCTION
 ------------
