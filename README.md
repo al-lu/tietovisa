@@ -12,8 +12,11 @@ DEMO
 TODO
 ------------
 Code commenting,
+
 Fix footer issues = No matter what screen size user has always lock it to the bottom of the page,
+
 Final overview,
+
 Publishing
 
 
