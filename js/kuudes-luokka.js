@@ -5,19 +5,19 @@
   * Short description of the game.
   * 
   * Idea was to create a multiple choise question game for 6th graders. 
-  * I wanted to concentrate more on the functionality of the gamselectedAnswer.
+  * I wanted to concentrate more on the functionality of the game.
   * Game works by pressing the start button you call a function which starts the game 
-  * by hiding all unnessesary elements from the player and shows the question from the dataset created at the end of this filselectedAnswer. 
-  * The dataset works as an Array of javascript objects which contain key: value pairs and a nested Array of objects called questions.
+  * by hiding all unnessesary elements from the player and shows the question from the dataset created at the end of this file. 
+  * The dataset works as an Array of javascript objects which contain key: value pairs and a nested Array of objects called answers.
   * In python this would be called nested list of dicts. And finding the right values based on their keys worked pretty much the same way 
   * as calling javascript objects or in python finding values from list of dictionaries.
-  * I also wanted to try methods and arrow functions from the Advanced javascript coursselectedAnswer. 
+  * I also wanted to try methods and arrow functions from the Advanced javascript course. 
   * By this point they work almost correctly.
   *   
   *
 */
 
-// Gather all elements from 6th grade html document into constant variables so they can be referred later in the codselectedAnswer.
+// Gather all elements from 6th grade html document into constant variables so they can be referred later in the code.
 
 const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
@@ -49,7 +49,7 @@ nextButton.addEventListener("click", () => {
 })
 
 // Start buttons startGame function. 
-// Adds class hide from 6th grade css file to elemnts that I don"t want to show to the player unless they answered the question.
+// Adds class hide from 6th grade css file to elements that I don't want to show to the player unless they answered the question.
 // Used .sort() method to sort the questions in the dataset.
 // Sets all Indexes to 0.
 // Removes class hide from the questionContainerElement.
@@ -93,8 +93,8 @@ function showQuestion(question) {
   // Show question number
   questionNumberElement.innerText = question.questionId;
   // Create answer buttons in a forEach loop. for each answer 
-  // Create answer buttons for each choise that the player can makselectedAnswer.
-  // Get all possible answers from class question answers list.
+  // Create answer buttons for each choise that the player can make.
+  // Get all possible answers from questions answers list.
   // for each loop to go thru all answers.
   question.answers.forEach((answer) => {
     // Creates a button for every answer
@@ -104,7 +104,7 @@ function showQuestion(question) {
     // consolselectedAnswer.log("Vaihtoehto" + " " + answer.text)
     // Adds btn class to all buttons
     button.classList.add("btn");
-    // Check if player selected the right answer by finding out if key correct value is TruselectedAnswer.
+    // Check if player selected the right answer by finding out if key correct value is true.
     if (answer.correct) {
       // Below link was used to learn about the use of .dataset
       // adds data-correct="true" to button atributes.
@@ -121,7 +121,6 @@ function showQuestion(question) {
 
 // resetState function to add class hide to nextButton element
 function resetState() {
-  // clearStatusClass(document.body)
   nextButton.classList.add("hide");
   // Remove previous questions
   // Below link used to help understand removing child elements. Removing lastChild is told to be faster.
@@ -131,8 +130,8 @@ function resetState() {
   }
 }
 
-// selected answer function used above in the showQuestion function. Takes in one parameter selected answer.
-// 
+// selected answer function used above in the showQuestion function. Takes in one argument selecteAnswer.
+
 function selectAnswer(selectedAnswer) {
   // Returns the element that triggered the event.
   const selectedButton = selectedAnswer.target;
@@ -147,7 +146,7 @@ function selectAnswer(selectedAnswer) {
 
   // If the button was correct === true. 
   // correctAnswers increments by one and the player is shown a counter which tells him/her current number of correct and wrong answers
-  // and two svg icons telling what number represents either answers. Hide class gets removed from the iconRight element.
+  // and two svg icons telling what number represents either answers. Hide class gets removed from the icon element.
   // All buttons except the next question button get disabled so the player can't increment the number of right or wrong answers forever.
 
   if (correct) {
@@ -196,7 +195,7 @@ function setStatusClass(element, correct) {
 
 // Small dataset filled with questions. 
 // The way I still see this is a nested list of dictionaries.
-// The only difference is that I can access values for example questions[1].answers[1].
+// The only difference is that I can access values for example questions[1].answers[1]. 
 
 const questions = [
   {
@@ -251,4 +250,3 @@ const questions = [
   },
 ]
 
-console.log()
