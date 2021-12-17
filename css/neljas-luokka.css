@@ -245,7 +245,7 @@ label {
     header{
         background-color: #6EC000;
         min-height: 27.4%;
-        padding-top: 84px;
+        padding-top: 85px;
     }
   
 
@@ -301,6 +301,7 @@ label {
         background-color: #6EC000;
         min-height: 27.4%;
         padding-top: 85px;
+        margin-bottom: 85px;
     }
 
     #quiz {
