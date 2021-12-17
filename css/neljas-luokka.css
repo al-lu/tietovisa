@@ -294,3 +294,29 @@ label {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+@media screen and (max-width: 512px) {
+    #quiz {
+        padding: 0;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+        border: none;
+        width: 100vw;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 1001;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+
+    }
+    #button #refresh {
+        width: 80px;
+    }
+    #quiz h1 h2 {
+        font-size: 0.5em;
+    }
+
+}
