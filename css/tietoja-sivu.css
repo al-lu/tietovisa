@@ -230,8 +230,9 @@ footer
 
     header{
         background-color: #6EC000;
-        min-height: 24vh;
-        padding-top: 80px;
+        padding-top: 85px;
+        padding-bottom: 90px;
+        
     }
   
 
@@ -259,6 +260,11 @@ footer
 
     .menu-item {
         margin: 2.5rem 0;
+    }
+
+    .info {
+    min-width: min-content;
+    padding-right: 10px;
     }
 
     .hamburger {
