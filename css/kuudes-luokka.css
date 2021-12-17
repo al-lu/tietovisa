@@ -176,7 +176,7 @@ footer {
     }
   
     /* Responsive menu */
-    .menu {
+    /* .menu {
         position: fixed;
         left: -100%;
         top: 12rem;
@@ -207,11 +207,11 @@ footer {
         padding-right: 15px;
         padding-top: 30px;
         cursor: pointer;
-    }
+    } */
 
     /* Rotate the three bars to form a X */
 
-    .hamburger.active .bar:nth-child(2) {
+    /* .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
@@ -221,7 +221,7 @@ footer {
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
+    } */
 }
 
 @media screen and (max-width: 700px){
