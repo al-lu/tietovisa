@@ -160,7 +160,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 /* kysymyslaatikko */
 #quiz {
-    display: block;
+    height: 100%;
     width: 40vw;
     text-align: center;
     background-color: rgba(183, 236, 76, 0.8);
@@ -213,7 +213,7 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    padding: 25px
+    padding: 25px 0;
 }
 
 label {
