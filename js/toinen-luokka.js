@@ -3,8 +3,6 @@
   *
 **/
 
-
-
 function checkAnswer(){
   let counter = 0;
   let english = document.getElementById('english');
@@ -20,7 +18,7 @@ function checkAnswer(){
     document.getElementById('questionCheck').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck').innerHTML = "Pieleen meni :(";
+    document.getElementById('questionCheck').innerHTML = "Pieleen meni :( <br> Oikea vastaus on Englanti.";
     document.getElementById('questionCheck').style.color = "red"
   }
   // Toisen kysymyksen if-lauseke
@@ -30,7 +28,7 @@ function checkAnswer(){
     document.getElementById('questionCheck2').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck2').innerHTML = "Pieleen meni :(";
+    document.getElementById('questionCheck2').innerHTML = "Pieleen meni :( <br> Ta-voi-tet-ta-vis-sa on tavutettu oikein.";
     document.getElementById('questionCheck2').style.color = "red"
   }
   // Kolmannen kysymyksen if-lauseke
@@ -40,7 +38,7 @@ function checkAnswer(){
     document.getElementById('questionCheck3').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck3').innerHTML = "Pieleen meni :(";
+    document.getElementById('questionCheck3').innerHTML = "Pieleen meni :( <br> Sepäs onkin hirvi :)";
     document.getElementById('questionCheck3').style.color = "red"
   }
   // Neljännen kysymyksen if-lauseke
@@ -50,7 +48,7 @@ function checkAnswer(){
     document.getElementById('questionCheck4').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck4').innerHTML = "Pieleen meni :(";
+    document.getElementById('questionCheck4').innerHTML = "Pieleen meni :( <br> Koivu olisi ollut oikea vastaus.";
     document.getElementById('questionCheck4').style.color = "red"
   }
   // Viidennen kysymyksen if-lauseke
@@ -60,10 +58,10 @@ function checkAnswer(){
     document.getElementById('questionCheck5').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck5').innerHTML = "Pieleen meni :(";
+    document.getElementById('questionCheck5').innerHTML = "Pieleen meni :( <br> 4 vuodenaikaa: talvi, kevät, kesä ja syksy :)";
     document.getElementById('questionCheck5').style.color = "red"
   }
-
+  // Pistemäärän tulostus
   document.getElementById('total').innerHTML = "Pisteesi: " + counter + ". " + "Maksimi pistemäärä on 5."
 
   // Nappia painattaessa, tarkista nappi häviää ja sen tilalle tulee yritä uudestaan nappi
