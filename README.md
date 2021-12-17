@@ -11,8 +11,6 @@ DEMO
 
 TODO
 ------------
-Code commenting,
-
 Final overview,
 
 Publishing
