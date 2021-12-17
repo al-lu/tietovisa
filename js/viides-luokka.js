@@ -1,10 +1,6 @@
 /**
   * @author Joona Karhu
   *
-=======
-/**
-  * @author Joona Karhu
-  *
 
 */
 
