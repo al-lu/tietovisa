@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="HandheldFriendly" content="true">
-    <title>Tietovisa Etusivu</title>
+    <title>5. luokka</title>
     <link rel="shortcut icon" type="" href="">
     <link href="../css/viides-luokka.css" rel="stylesheet" type="text/css">
     <link href="../css/responsive.css" rel="stylesheet" type="text/css">
@@ -32,7 +32,7 @@
                     onmouseout="this.src='../images/bulb-logo.png'" alt="Logo"></a>
             <img class="logo-text" src="../images/tietovisa-logo.png" alt="Logo-Text">
 
-
+                <!-- header menu, and reponsive menubar -->
                 <nav>
                     <ul class="menu" id="menu">
                         <li><a href="../index.html">Etusivu</a></li>
@@ -48,7 +48,8 @@
         </div>
     </header>
    
-    <!-- tietovisa tähän -->
+    <!-- here is the quiz -->
+    <!-- questions and answers are in their own dividers -->
  <section class="slider">
     <section class="quiz">
         <h2>Luokka 5.</h2>
@@ -92,6 +93,8 @@
             <p id="answer5"></p>
         </div><br>
 
+        <!-- here are the point totals, and the check and reload buttons -->
+        <!-- reload button is hidden when site is loaded -->
         <div id="points"></div>
         <button onclick="checkAnswers()" id="check">Tarkista</button>
         <button onclick="window.location.reload();" id="reload" hidden>Yritä uudestaan</button>
@@ -110,6 +113,6 @@
         </div>
     </footer>
     
-    <script src="../js/viides-luokka.js" async defer></script>
+    <script src="../js/viides-luokka.js" defer></script>
     <script src="../js/main.js" async defer></script>
 </body>

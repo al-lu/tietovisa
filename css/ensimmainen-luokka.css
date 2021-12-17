@@ -82,6 +82,7 @@ header {
 }
 
 /****************************  Logo Styles and Animation  ********************************************/
+
 .logo img
 {   
     max-width: 75px;
@@ -124,6 +125,8 @@ header nav ul li a:hover,header nav ul li a:focus
     display: none;
 }
 
+/****************************  Quiz block styles start here  ********************************************/
+
 .slider{
     background-image: url(../images/school-background.png);
     background-size: cover;
@@ -160,6 +163,7 @@ label {
     margin-bottom: 15px;
 }
 
+/****************************  Footer styles  ********************************************/
 
 footer
 {
@@ -188,6 +192,9 @@ footer
     background-color: white;
     background-size: cover;
 }
+
+/****************************  Responsive styles ********************************************/
+
 @media screen and (max-width: 1010px){
 
     header{
