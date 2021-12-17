@@ -2,7 +2,7 @@
   * @author Toni Leinonen
   *
 **/
-
+// Funktio, jolla tarkastetaan oikeat vastaukset nappia painattaessa
 function checkAnswer(){
   let counter = 0;
   let english = document.getElementById('english');
