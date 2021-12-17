@@ -151,13 +151,14 @@ header nav ul li a:hover,header nav ul li a:focus
 }
 
 
-
+/* sivun taustakuva */
 .background {
     background-image: url(../images/map.png);
     background-size: cover;
     padding-bottom: 25px
 }
 
+/* kysymyslaatikko */
 #quiz {
     display: block;
     width: 40vw;
@@ -236,6 +237,8 @@ label {
     text-shadow: rgb(56, 56, 56) 0px 0px 5px;
     color: #e1e1e1;
 }
+
+/* responsiivisuus */
 
 @media screen and (max-width: 1010px){
 
