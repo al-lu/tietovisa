@@ -136,14 +136,17 @@ header nav ul li a:hover,header nav ul li a:focus
     background-size: cover;
 }
 
+/****************************  Quiz styles  ********************************************/
+
 .slider{
     background-image: url(../images/viidesluokka-background.png);
     background-size: cover;
     
+    
 }
 
 .quiz {
-    display: block;
+    height: 100%;
     width: 40vw;
     margin-left: 30vw;
     padding-top: 100px;
@@ -183,6 +186,9 @@ footer
     padding: 25px 0;
     
 }
+
+/****************************  Responsive styles  ********************************************/
+
 @media screen and (max-width: 1010px){
 
     header{

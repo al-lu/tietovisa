@@ -76,6 +76,8 @@ button:hover{
     .hamburger {
         display: none;
    }
+        /****************************  Responsive styles ********************************************/
+
    @media screen and (max-width: 1010px){
 
     header{
