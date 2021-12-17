@@ -31,17 +31,17 @@ Main Colors :   #6EC000 GREEN
 
 .secondary-body {
     /* Add chalkboard image or something*/
-color: black;
-padding: 0;
-margin: 0;
+/* color: black; */
+/* padding: 0;
+margin: 0; */
 display: flex;
 width: 100vw;
 height: 100vh;
 justify-content: center;
 align-items: center;
-background-color: hsl(var(--hue), 100%, 20%);
+/* background-color: hsl(var(--hue), 100%, 20%); */
 background-image: url("../images/chalkboard.png");
-z-index: 1001;
+/* z-index: 1001; */
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
@@ -111,7 +111,6 @@ border-color: black;
 
 .btn.correct {
 --hue: var(--hue-correct);
-color: black;
 }
 
 .btn.wrong {
