@@ -29,7 +29,7 @@ Main Colors :   #6EC000 GREEN
 /* Image */
 
 .questions-body {
-display: flex;
+display:flex;
 width: 100vw;
 height: 100vh;
 justify-content: center;
@@ -141,23 +141,29 @@ footer {
     padding: 25px 0;
 } 
 
-
 @media screen and (max-width: 1010px){
 
     /* Responsive styles */
 
     header{
         background-color: #6EC000;
-        min-height: 27.4%;
-        padding-top: 84px;
+        /* min-height: 27.4%; */
+        /* max-height: 30px; */
+        /* padding-top: 84px; */
+        margin-top: -85px;
     }
 
     /* Change bg image when using smaller screen */
+
+    .logo-text{
+        display: none;
+    }
     
     .questions-body {
         color: black;
         padding: 0;
-        margin: 0;
+        padding-bottom: 150px;
+        margin-top: 85px;
         display: flex;
         width: 100vw;
         height: 100vh;
@@ -166,6 +172,7 @@ footer {
         background-color: hsl(var(--hue), 100%, 20%);
         background-image: url("../images/kuudes-luokka/chalkboard_mobile.png");
         z-index: 1001;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
