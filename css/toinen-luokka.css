@@ -126,7 +126,7 @@ header nav ul li a:hover,header nav ul li a:focus
 {
     display: none;
 }
-
+/* Game area background */
 #quiz{
     background-color: rgba(196, 203, 17, 0.65);
     width: 50vw;
@@ -144,7 +144,7 @@ header nav ul li a:hover,header nav ul li a:focus
     width: 25vw;
 }
 
-.slider{
+.background{
     background-image: url(../images/tonin-peli-kuvat/space-background.png);
     background-size: cover;
     padding-top: 14vh;
@@ -171,9 +171,6 @@ label {
 [id*="Question"] {
     border-bottom: 1px black solid;
 }
-/* label:hover {
-    font-weight: bold;
-} */
 
 #fifthQuestion{
     border-bottom: none;
