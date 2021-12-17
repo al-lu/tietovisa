@@ -1,94 +1,43 @@
 CONTENTS OF THIS FILE
 ---------------------
-
+ * Demo
+ * TODO
+ * Contributors
  * Introduction
- * Requirements
- * Installation
- * Configuration
- * Troubleshooting
- * FAQ
- * Maintainers
+
+DEMO
+------------
+![Test Demo](https://github.com/al-lu/tietovisa/blob/main/demo/demo.gif)
+
+TODO
+------------
+Code commenting,
+
+Fix footer issues = No matter what screen size user has always lock it to bottom of the page,
+
+Final overview,
+
+Publishing
+
+
+CONTRIBUTORS
+------------
+
+Joona, 1st Grade,
+
+Toni, 2nd Grade,
+
+Aapo, 3rd Grade,
+
+Sami 4th Grade,
+
+Team, 5th Grade,
+
+Aleksi 6th Grade
+
+
+Whole team: Frontpage, info page,  5th Grade
 
 INTRODUCTION
 ------------
-
-!!!    JOS JOKU LUKEE TÄN NII KIRJOTTAKAA TÄNNE MILLE LUOKALLE TEETTE PELIN.   !!!
-
-Aapo, 3. Luokka,
-
-Joona 1. Luokka,
-
-Aleksi 6. Luokka,
-
-Sami,
-
-Toni 2. Luokka
-
-REQUIREMENTS
-------------
-
-RECOMMENDED MODULES
--------------------
-
-INSTALLATION
-------------
-
-CONFIGURATION
--------------
-
-TROUBLESHOOTING
----------------
-
-FAQ
----
-
-MAINTAINERS
------------
-
-CONTENTS OF THIS FILE
----------------------
-
- * Introduction
- * Requirements
- * Installation
- * Configuration
- * Troubleshooting
- * FAQ
- * Maintainers
-
-INTRODUCTION
-------------
-
-!!!    JOS JOKU LUKEE TÄN NII KIRJOTTAKAA TÄNNE MILLE LUOKALLE TEETTE PELIN.   !!!
-
-Aapo, 3. Luokka,
-
-Joona 1. Luokka,
-
-Aleksi 6. Luokka,
-
-Sami 5. Luokka
-
-Toni 2. Luokka
-
-REQUIREMENTS
-------------
-
-RECOMMENDED MODULES
--------------------
-
-INSTALLATION
-------------
-
-CONFIGURATION
--------------
-
-TROUBLESHOOTING
----------------
-
-FAQ
----
-
-MAINTAINERS
------------
-
+Website for grade schoolers (1st to 6th grade). Multiple choise questions to answer when bored.
