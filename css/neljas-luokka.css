@@ -244,15 +244,54 @@ label {
 
     header{
         background-color: #6EC000;
-        min-height: 27.4%;
-        padding-top: 85px;
+        /* margin-top: -85px; */
+        /* padding-top: 84px; */
+        padding-top: 85px; 
+        padding-bottom: 90px;
     }
+
+
+    #quiz {
+        border-radius: 0px;
+        /* padding-bottom: 30px; */
+        padding: 0;
+        margin-top: 0px;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        /* width: 100vw;
+        height: 100%;  */
+        justify-content: center;
+        align-items: center;
+        z-index: 1001;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        overflow: hidden;
+        min-width: min-content;
+
+    }
+
+    #button #refresh {
+        width: 80px;
+    }
+    .logo-text{
+        display: none;
+    }
+    
+    .background {
+        
+        background-color: rgba(0, 0, 0, 0);
+        z-index: 1001;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    } 
   
 
     .menu {
         position: fixed;
         left: -100%;
-        top: 12rem;
+        top: 9rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
@@ -293,49 +332,4 @@ label {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-}
-
-@media screen and (max-width: 512px) {
-
-    header{
-        background-color: #6EC000;
-        min-height: 27.4%;
-        padding-top: 85px;
-        margin-bottom: 85px;
-    }
-
-    #quiz {
-        border-radius: 0px;
-        padding-bottom: 30px;
-        padding: 0;
-        margin: 0;
-        background-color: rgba(0, 0, 0, 0);
-        border: none;
-        width: 100vw;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        z-index: 1001;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-
-    }
-    #button #refresh {
-        width: 80px;
-    }
-    
-    .background {
-        
-        background-color: rgba(0, 0, 0, 0);
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        z-index: 1001;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-    }
-
 }
