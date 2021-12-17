@@ -18,7 +18,7 @@ function checkAnswer(){
     document.getElementById('questionCheck').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck').innerHTML = "Pieleen meni :( <br> Oikea vastaus on Englanti.";
+    document.getElementById('questionCheck').innerHTML = "Pieleen meni :(";
     document.getElementById('questionCheck').style.color = "red"
   }
   // second question if statement
@@ -28,7 +28,7 @@ function checkAnswer(){
     document.getElementById('questionCheck2').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck2').innerHTML = "Pieleen meni :( <br> Ta-voi-tet-ta-vis-sa on tavutettu oikein.";
+    document.getElementById('questionCheck2').innerHTML = "Pieleen meni :(";
     document.getElementById('questionCheck2').style.color = "red"
   }
   // Third question if statement
@@ -38,7 +38,7 @@ function checkAnswer(){
     document.getElementById('questionCheck3').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck3').innerHTML = "Pieleen meni :( <br> Sepäs onkin hirvi :)";
+    document.getElementById('questionCheck3').innerHTML = "Pieleen meni :(";
     document.getElementById('questionCheck3').style.color = "red"
   }
   // Fourth question if statement
@@ -48,7 +48,7 @@ function checkAnswer(){
     document.getElementById('questionCheck4').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck4').innerHTML = "Pieleen meni :( <br> Koivu olisi ollut oikea vastaus.";
+    document.getElementById('questionCheck4').innerHTML = "Pieleen meni :(";
     document.getElementById('questionCheck4').style.color = "red"
   }
   // Fourth question if statement
@@ -58,7 +58,7 @@ function checkAnswer(){
     document.getElementById('questionCheck5').style.color = "green"
   }
   else {
-    document.getElementById('questionCheck5').innerHTML = "Pieleen meni :( <br> 4 vuodenaikaa: talvi, kevät, kesä ja syksy :)";
+    document.getElementById('questionCheck5').innerHTML = "Pieleen meni :(";
     document.getElementById('questionCheck5').style.color = "red"
   }
   // Points counter print

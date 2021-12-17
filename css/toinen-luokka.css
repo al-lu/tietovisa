@@ -121,7 +121,7 @@ header nav ul li a:hover,header nav ul li a:focus {
     border: 2px #6EC000 solid;
     text-align: center;
     margin-left: 25vw;
-    background-image: url(../images/tonin-peli-kuvat/hippo.png);
+    background-image: url(../images/toinen-luokka/hippo.png);
     background-repeat: no-repeat;
     background-position:right bottom;
     background-size: 10vw;
@@ -132,7 +132,7 @@ header nav ul li a:hover,header nav ul li a:focus {
 }
 
 .background {
-    background-image: url(../images/tonin-peli-kuvat/space-background.png);
+    background-image: url(../images/toinen-luokka/space-background.png);
     background-size: cover;
     padding-top: 14vh;
     padding-bottom: 10px;

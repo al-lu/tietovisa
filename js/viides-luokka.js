@@ -6,7 +6,7 @@
 
 // created variables for correct and wrong answers
 let correctAns = 'Oikea vastaus! :)'
-let wrongAns = 'Nyt ei mennyt ihan oikein :('
+let wrongAns = 'Väärä vastaus :('
 
 // function for checking the answers, and printing your point total
 function checkAnswers() {
