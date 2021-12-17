@@ -128,7 +128,7 @@ header nav ul li a:hover,header nav ul li a:focus
 /****************************  Quiz block styles start here  ********************************************/
 
 .slider{
-    background-image: url(../images/school-background.png);
+    background-image: url(../images/ensimmäinen-luokka/school-background.png);
     background-size: cover;
     
 }
@@ -167,7 +167,6 @@ label {
 
 footer
 {
-    
     background-color: #6EC000;
     background-size: cover;
     -webkit-background-size: cover;
