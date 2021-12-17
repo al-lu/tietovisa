@@ -245,7 +245,6 @@ label {
     header{
         background-color: #6EC000;
         min-height: 27.4%;
-        max-height: 27.4%;
         padding-top: 84px;
     }
   
@@ -298,10 +297,16 @@ label {
 
 @media screen and (max-width: 512px) {
 
+    header{
+        background-color: #6EC000;
+        min-height: 27.4%;
+        padding-top: 85px;
+    }
+
     #quiz {
         border-radius: 0px;
         padding-bottom: 30px;
-        padding-top: 0;
+        padding: 0;
         margin: 0;
         background-color: rgba(0, 0, 0, 0);
         border: none;
