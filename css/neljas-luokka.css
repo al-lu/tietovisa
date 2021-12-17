@@ -153,7 +153,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 /* sivun taustakuva */
 .background {
-    background-image: url(../images/map.png);
+    background-image: url(../images/neljas-luokka/map.png);
     background-size: cover;
     padding-bottom: 25px;
 }
