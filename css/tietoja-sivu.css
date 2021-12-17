@@ -167,12 +167,9 @@ header nav ul li a:hover,header nav ul li a:focus
     background-color: rgba(169, 203, 17, 0.87);
     width: 35vw;
     border: 4px #6EC000 solid;
-    
     margin-left: auto;
     margin-right: auto;
-    background-repeat: no-repeat;
-    background-position:right bottom;
-    background-size: 10vw;
+   
 }
 
 .info h2  {
