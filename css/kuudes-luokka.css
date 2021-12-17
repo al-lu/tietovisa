@@ -34,7 +34,7 @@ width: 100vw;
 height: 100vh;
 justify-content: center;
 align-items: center;
-background-image: url("../images/chalkboard.png");
+background-image: url("../images/kuudes-luokka/chalkboard.png");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
@@ -162,7 +162,7 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: hsl(var(--hue), 100%, 20%);
-        background-image: url("../images/chalkboard_mobile.png");
+        background-image: url("../images/kuudes-luokka/chalkboard_mobile.png");
         z-index: 1001;
         background-repeat: no-repeat;
         background-attachment: fixed;
