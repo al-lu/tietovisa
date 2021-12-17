@@ -162,7 +162,8 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .links
 {
-    background-image: url("../images/education-background.png");
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/education-background.png");
     background-size: cover;
 }
 
@@ -397,7 +398,7 @@ ol li {
 
 ol li::before {
     content: counter(counter);
-    color: #fcd000;
+    color: #6EC000;
     font-size: 1.5rem;
     font-weight: bold;
     position: absolute;
@@ -411,7 +412,6 @@ ol li::before {
     background: transparent;
     border-radius: 50%;
     text-align: center;
-    box-shadow: 1px 1px 0 #999;
 }
 
 .sliderInfo{
