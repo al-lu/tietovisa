@@ -2,7 +2,7 @@
   *
   * @author Aleksi Kallio
   *
-  * Short description of the gamselectedAnswer.
+  * Short description of the game.
   * 
   * Idea was to create a multiple choise question game for 6th graders. 
   * I wanted to concentrate more on the functionality of the gamselectedAnswer.
@@ -195,10 +195,9 @@ function setStatusClass(element, correct) {
 
 
 // Small dataset filled with questions. 
-// The way I still see this a nested list of dictionaries.
-// In the first array whitch is questions array is a dictionary with keys question and questionId and their values.
-// The dictionaries can be accessed by indexing.
-// The next array answers can be accessed by indexing even further.  
+// The way I still see this is a nested list of dictionaries.
+// The only difference is that I can access values for example questions[1].answers[1].
+
 const questions = [
   {
     question: "Aineen pienin rakenneosanen on...",
@@ -252,3 +251,4 @@ const questions = [
   },
 ]
 
+console.log()
