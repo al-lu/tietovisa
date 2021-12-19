@@ -220,7 +220,7 @@ const questions = [
   },
   {
     question: "Raudan kemiallinen kaava on...",
-    questionId: "Kysymys 3",
+    questionId: "Kysymys 3.",
     answers: [
       { text: "Fe", correct: true },
       { text: "Ni", correct: false },
@@ -230,7 +230,7 @@ const questions = [
   },
   {
     question: "Mikä hiukkasista on varaukseltaan positiivinen?",
-    questionId: "Kysymys 4",
+    questionId: "Kysymys 4.",
     answers: [
       { text: "Protoni", correct: true },
       { text: "Elektroni", correct: false },
@@ -240,7 +240,7 @@ const questions = [
   },
   {
     question: "Endoterminen reaktio on...",
-    questionId: "Kysymys 5",
+    questionId: "Kysymys 5.",
     answers: [
       { text: "lämpöä luovuttava reaktio.", correct: false },
       { text: "lämpöä sitova reaktio.", correct: true },
