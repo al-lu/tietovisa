@@ -1,7 +1,6 @@
 CONTENTS OF THIS FILE
 ---------------------
  * Demo
- * TODO
  * Contributors
  * Introduction
 
@@ -11,10 +10,6 @@ DEMO
 
 TODO
 ------------
-Final overview,
-
-Publishing
-
 
 CONTRIBUTORS
 ------------
