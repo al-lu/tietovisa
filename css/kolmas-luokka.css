@@ -9,11 +9,12 @@ Main Colors :   #6EC000 GREEN
             :   #f7f7f7 Game intro BACKGROUND WHITE
 */
 
-
+/*Headlines*/
 
 h3 {
     color: brown;
 }
+/*Slider*/
 
 .slider {
     background-image: url(../images/education-background.png);
@@ -23,6 +24,8 @@ h3 {
     
     
 }
+
+/*Quiz styles*/
 
 #quiz {
     display: block;
@@ -49,6 +52,7 @@ h3 {
     
     
 }
+/*Button styling*/
 
 button {
     font-family: sans-serif;
@@ -63,10 +67,12 @@ button {
     color: blue;
     
 }
+/*Hover on button*/
 
 button:hover{
 	background-color: green;
 }
+/*Slider*/
 
 .slider {
     background-image: url(https://cdn.pixabay.com/photo/2020/12/03/09/47/pencil-5800079_960_720.jpg);
